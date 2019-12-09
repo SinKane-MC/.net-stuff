@@ -1,0 +1,9 @@
+C:\Git\.Net Stuff\C#\ChickenOrEgg\ChickenOrEgg\bin\Debug\ChickenOrEgg.exe.config
+C:\Git\.Net Stuff\C#\ChickenOrEgg\ChickenOrEgg\bin\Debug\ChickenOrEgg.exe
+C:\Git\.Net Stuff\C#\ChickenOrEgg\ChickenOrEgg\bin\Debug\ChickenOrEgg.pdb
+C:\Git\.Net Stuff\C#\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.csprojAssemblyReference.cache
+C:\Git\.Net Stuff\C#\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.frmMain.resources
+C:\Git\.Net Stuff\C#\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.Properties.Resources.resources
+C:\Git\.Net Stuff\C#\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.csproj.GenerateResource.cache
+C:\Git\.Net Stuff\C#\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.exe
+C:\Git\.Net Stuff\C#\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.pdb

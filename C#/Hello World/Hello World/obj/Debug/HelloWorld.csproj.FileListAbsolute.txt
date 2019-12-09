@@ -1,0 +1,9 @@
+C:\Git\.Net Stuff\C#\Hello World\Hello World\bin\Debug\Hello World.exe.config
+C:\Git\.Net Stuff\C#\Hello World\Hello World\bin\Debug\Hello World.exe
+C:\Git\.Net Stuff\C#\Hello World\Hello World\bin\Debug\Hello World.pdb
+C:\Git\.Net Stuff\C#\Hello World\Hello World\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+C:\Git\.Net Stuff\C#\Hello World\Hello World\obj\Debug\Hello_World.frmMain.resources
+C:\Git\.Net Stuff\C#\Hello World\Hello World\obj\Debug\Hello_World.Properties.Resources.resources
+C:\Git\.Net Stuff\C#\Hello World\Hello World\obj\Debug\HelloWorld.csproj.GenerateResource.cache
+C:\Git\.Net Stuff\C#\Hello World\Hello World\obj\Debug\Hello World.exe
+C:\Git\.Net Stuff\C#\Hello World\Hello World\obj\Debug\Hello World.pdb

@@ -1,0 +1,9 @@
+C:\Git\.Net Stuff\C#\Checkout\Checkout\bin\Debug\Checkout.exe.config
+C:\Git\.Net Stuff\C#\Checkout\Checkout\bin\Debug\Checkout.exe
+C:\Git\.Net Stuff\C#\Checkout\Checkout\bin\Debug\Checkout.pdb
+C:\Git\.Net Stuff\C#\Checkout\Checkout\obj\Debug\Checkout.csprojAssemblyReference.cache
+C:\Git\.Net Stuff\C#\Checkout\Checkout\obj\Debug\Checkout.frmCheckout.resources
+C:\Git\.Net Stuff\C#\Checkout\Checkout\obj\Debug\Checkout.Properties.Resources.resources
+C:\Git\.Net Stuff\C#\Checkout\Checkout\obj\Debug\Checkout.csproj.GenerateResource.cache
+C:\Git\.Net Stuff\C#\Checkout\Checkout\obj\Debug\Checkout.exe
+C:\Git\.Net Stuff\C#\Checkout\Checkout\obj\Debug\Checkout.pdb
