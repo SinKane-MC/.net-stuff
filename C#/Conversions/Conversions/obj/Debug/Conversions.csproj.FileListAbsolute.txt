@@ -1,0 +1,9 @@
+C:\Users\843722\source\repos\Conversions\Conversions\bin\Debug\Conversions.exe.config
+C:\Users\843722\source\repos\Conversions\Conversions\bin\Debug\Conversions.exe
+C:\Users\843722\source\repos\Conversions\Conversions\bin\Debug\Conversions.pdb
+C:\Users\843722\source\repos\Conversions\Conversions\obj\Debug\Conversions.csprojAssemblyReference.cache
+C:\Users\843722\source\repos\Conversions\Conversions\obj\Debug\Conversions.Form1.resources
+C:\Users\843722\source\repos\Conversions\Conversions\obj\Debug\Conversions.Properties.Resources.resources
+C:\Users\843722\source\repos\Conversions\Conversions\obj\Debug\Conversions.csproj.GenerateResource.cache
+C:\Users\843722\source\repos\Conversions\Conversions\obj\Debug\Conversions.exe
+C:\Users\843722\source\repos\Conversions\Conversions\obj\Debug\Conversions.pdb
