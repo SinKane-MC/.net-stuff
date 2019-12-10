@@ -6,3 +6,4 @@ C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc_P
 C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.csproj.GenerateResource.cache
 C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.exe
 C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.pdb
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc_PowerCo.frmMain.resources
