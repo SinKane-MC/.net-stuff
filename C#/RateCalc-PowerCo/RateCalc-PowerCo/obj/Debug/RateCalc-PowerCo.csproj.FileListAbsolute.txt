@@ -1,0 +1,8 @@
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\bin\Debug\RateCalc-PowerCo.exe.config
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\bin\Debug\RateCalc-PowerCo.exe
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\bin\Debug\RateCalc-PowerCo.pdb
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.csprojAssemblyReference.cache
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc_PowerCo.Properties.Resources.resources
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.csproj.GenerateResource.cache
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.exe
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.pdb
