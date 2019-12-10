@@ -1,0 +1,30 @@
+c:\users\jwarpech\documents\visual studio 2012\Projects\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.exe.config
+c:\users\jwarpech\documents\visual studio 2012\Projects\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.exe
+c:\users\jwarpech\documents\visual studio 2012\Projects\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.pdb
+c:\users\jwarpech\documents\visual studio 2012\Projects\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.csprojResolveAssemblyReference.cache
+c:\users\jwarpech\documents\visual studio 2012\Projects\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.Form1.resources
+c:\users\jwarpech\documents\visual studio 2012\Projects\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.Properties.Resources.resources
+c:\users\jwarpech\documents\visual studio 2012\Projects\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.csproj.GenerateResource.Cache
+c:\users\jwarpech\documents\visual studio 2012\Projects\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.exe
+c:\users\jwarpech\documents\visual studio 2012\Projects\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.pdb
+H:\OOSD\CPRG 200 - Part 1\Day 2\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.exe.config
+H:\OOSD\CPRG 200 - Part 1\Day 2\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.exe
+H:\OOSD\CPRG 200 - Part 1\Day 2\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.pdb
+H:\OOSD\CPRG 200 C#\Day 2\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.exe.config
+H:\OOSD\CPRG 200 C#\Day 2\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.exe
+H:\OOSD\CPRG 200 C#\Day 2\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.pdb
+H:\OOSD\CPRG 200 C#\Day 2\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.exe
+H:\OOSD\CPRG 200 C#\Day 2\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.pdb
+H:\OOSD\CPRG 200 C#\Day 2\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.csprojResolveAssemblyReference.cache
+H:\OOSD\CPRG 200 C#\Day 2\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.Form1.resources
+H:\OOSD\CPRG 200 C#\Day 2\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.Properties.Resources.resources
+H:\OOSD\CPRG 200 C#\Day 2\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.csproj.GenerateResource.Cache
+C:\Git\.net-stuff\C#\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.exe.config
+C:\Git\.net-stuff\C#\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.exe
+C:\Git\.net-stuff\C#\TaxCalculation\TaxCalculation\bin\Debug\TaxCalculation.pdb
+C:\Git\.net-stuff\C#\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.Form1.resources
+C:\Git\.net-stuff\C#\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.Properties.Resources.resources
+C:\Git\.net-stuff\C#\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.exe
+C:\Git\.net-stuff\C#\TaxCalculation\TaxCalculation\obj\Debug\TaxCalculation.pdb

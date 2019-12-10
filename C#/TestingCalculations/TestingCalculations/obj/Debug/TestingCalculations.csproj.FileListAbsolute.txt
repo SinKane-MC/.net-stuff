@@ -1,0 +1,6 @@
+C:\Git\.net-stuff\C#\TestingCalculations\TestingCalculations\bin\Debug\TestingCalculations.exe.config
+C:\Git\.net-stuff\C#\TestingCalculations\TestingCalculations\bin\Debug\TestingCalculations.exe
+C:\Git\.net-stuff\C#\TestingCalculations\TestingCalculations\bin\Debug\TestingCalculations.pdb
+C:\Git\.net-stuff\C#\TestingCalculations\TestingCalculations\obj\Debug\TestingCalculations.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\TestingCalculations\TestingCalculations\obj\Debug\TestingCalculations.exe
+C:\Git\.net-stuff\C#\TestingCalculations\TestingCalculations\obj\Debug\TestingCalculations.pdb

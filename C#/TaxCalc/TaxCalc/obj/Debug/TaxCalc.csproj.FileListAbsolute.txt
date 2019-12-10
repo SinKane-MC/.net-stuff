@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\TaxCalc\TaxCalc\bin\Debug\TaxCalc.exe.config
+C:\Git\.net-stuff\C#\TaxCalc\TaxCalc\bin\Debug\TaxCalc.exe
+C:\Git\.net-stuff\C#\TaxCalc\TaxCalc\bin\Debug\TaxCalc.pdb
+C:\Git\.net-stuff\C#\TaxCalc\TaxCalc\obj\Debug\TaxCalc.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\TaxCalc\TaxCalc\obj\Debug\TaxCalc.Form1.resources
+C:\Git\.net-stuff\C#\TaxCalc\TaxCalc\obj\Debug\TaxCalc.Properties.Resources.resources
+C:\Git\.net-stuff\C#\TaxCalc\TaxCalc\obj\Debug\TaxCalc.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\TaxCalc\TaxCalc\obj\Debug\TaxCalc.exe
+C:\Git\.net-stuff\C#\TaxCalc\TaxCalc\obj\Debug\TaxCalc.pdb

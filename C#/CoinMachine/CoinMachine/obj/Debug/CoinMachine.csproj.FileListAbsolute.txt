@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\CoinMachine\CoinMachine\obj\Debug\CoinMachine.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\CoinMachine\CoinMachine\obj\Debug\CoinMachine.Form1.resources
+C:\Git\.net-stuff\C#\CoinMachine\CoinMachine\obj\Debug\CoinMachine.Properties.Resources.resources
+C:\Git\.net-stuff\C#\CoinMachine\CoinMachine\obj\Debug\CoinMachine.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\CoinMachine\CoinMachine\bin\Debug\CoinMachine.exe.config
+C:\Git\.net-stuff\C#\CoinMachine\CoinMachine\bin\Debug\CoinMachine.exe
+C:\Git\.net-stuff\C#\CoinMachine\CoinMachine\bin\Debug\CoinMachine.pdb
+C:\Git\.net-stuff\C#\CoinMachine\CoinMachine\obj\Debug\CoinMachine.exe
+C:\Git\.net-stuff\C#\CoinMachine\CoinMachine\obj\Debug\CoinMachine.pdb
