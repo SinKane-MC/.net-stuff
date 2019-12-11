@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\SimpleArray\SimpleArray\bin\Debug\SimpleArray.exe.config
+C:\Git\.net-stuff\C#\SimpleArray\SimpleArray\bin\Debug\SimpleArray.exe
+C:\Git\.net-stuff\C#\SimpleArray\SimpleArray\bin\Debug\SimpleArray.pdb
+C:\Git\.net-stuff\C#\SimpleArray\SimpleArray\obj\Debug\SimpleArray.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\SimpleArray\SimpleArray\obj\Debug\SimpleArray.Form1.resources
+C:\Git\.net-stuff\C#\SimpleArray\SimpleArray\obj\Debug\SimpleArray.Properties.Resources.resources
+C:\Git\.net-stuff\C#\SimpleArray\SimpleArray\obj\Debug\SimpleArray.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\SimpleArray\SimpleArray\obj\Debug\SimpleArray.exe
+C:\Git\.net-stuff\C#\SimpleArray\SimpleArray\obj\Debug\SimpleArray.pdb
