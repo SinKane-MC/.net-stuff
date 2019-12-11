@@ -27,13 +27,19 @@ namespace Conversions
         {
             int feet = 0, inches = 0;
             double cm = 0;
-            //get feet and inches from user input
-            feet = Convert.ToInt32(txtFeet.Text);
-            inches = Convert.ToInt32(txtInches.Text);
-            //calculate centimeters
-            cm = CalculateCentimeters(feet, inches);
-            //display result
-            txtCent.Text = cm.ToString("f2");
+            if (Validator.IsPresent(txtFeet, "Feet") && Validator.IsNonNegativeInt32(txtFeet, "Feet") &&
+                Validator.IsPresent(txtInches, "Inches") && Validator.IsNonNegativeInt32(txtInches, "Inches"))
+            {
+
+                //get feet and inches from user input
+                feet = Convert.ToInt32(txtFeet.Text);
+                inches = Convert.ToInt32(txtInches.Text);
+                //calculate centimeters
+                cm = CalculateCentimeters(feet, inches);
+                //display result
+                txtCent.Text = cm.ToString("f2");
+            }
+            
         }
         
         private double CalculateCentimeters(int f, int i)
@@ -50,16 +56,21 @@ namespace Conversions
         /// <param name="e"></param>
         private void btnToImperial_Click(object sender, EventArgs e)
         {
-            // get centimeters
-            double cm = 0;
-            int feet, inches;
-            cm = Convert.ToDouble(txtCent.Text);
-            //calculate
-            CalculateFeetInches(cm, out feet, out inches);
+            if (Validator.IsPresent(txtCent,"Centimeters") && Validator.IsNonNegativeDouble(txtCent, "Centimeters"))
+                {
 
-            //display
-            txtFeet.Text = feet.ToString();
-            txtInches.Text = inches.ToString();
+                    // get centimeters
+                    double cm = 0;
+                    int feet, inches;
+                    cm = Convert.ToDouble(txtCent.Text);
+                    //calculate
+                    CalculateFeetInches(cm, out feet, out inches);
+
+                    //display
+                    txtFeet.Text = feet.ToString();
+                    txtInches.Text = inches.ToString();
+                
+            }
         }
         //convert centimetres to feet and inches
         private void CalculateFeetInches(double centimeters, out int f, out int i)
