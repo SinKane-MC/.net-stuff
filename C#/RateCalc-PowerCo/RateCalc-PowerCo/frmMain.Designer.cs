@@ -159,7 +159,7 @@
             this.txtInput.Size = new System.Drawing.Size(100, 34);
             this.txtInput.TabIndex = 7;
             this.txtInput.Text = "0";
-            this.txtInput.TextChanged += new System.EventHandler(this.txtInput_TextChanged);
+            this.txtInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInput_KeyPress);
             // 
             // lblAmount
             // 
@@ -180,6 +180,7 @@
             this.txtOffPeak.TabIndex = 10;
             this.txtOffPeak.Text = "0";
             this.txtOffPeak.Visible = false;
+            this.txtOffPeak.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtOffPeak_KeyPress);
             // 
             // lblOffPeak
             // 
