@@ -1,0 +1,6 @@
+C:\Git\.net-stuff\C#\SimpleClass\SimpleClass\bin\Debug\SimpleClass.exe.config
+C:\Git\.net-stuff\C#\SimpleClass\SimpleClass\bin\Debug\SimpleClass.exe
+C:\Git\.net-stuff\C#\SimpleClass\SimpleClass\bin\Debug\SimpleClass.pdb
+C:\Git\.net-stuff\C#\SimpleClass\SimpleClass\obj\Debug\SimpleClass.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\SimpleClass\SimpleClass\obj\Debug\SimpleClass.exe
+C:\Git\.net-stuff\C#\SimpleClass\SimpleClass\obj\Debug\SimpleClass.pdb
