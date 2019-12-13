@@ -70,6 +70,37 @@ namespace RateCalc_PowerCo
             }
         }
 
+        
+        // Check after each key press to see if we have required data
+        // if not show an error and disable the Calculate button
+        private void txtOffPeak_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtOffPeak.Text))
+            {
+                btnCalculate.Enabled = false;
+                errorProvider1.SetError(txtOffPeak, "Value Required");
+            }else
+            {
+                btnCalculate.Enabled = true;
+                errorProvider1.SetError(txtOffPeak, "");
+            }
+        }
+        // Check after each key press to see if we have required data
+        // if not show an error and disable the Calculate button
+        private void txtInput_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtInput.Text))
+            {
+                btnCalculate.Enabled = false;
+                errorProvider1.SetError(txtInput, "Value Required");
+            }
+            else
+            {
+                btnCalculate.Enabled = true;
+                errorProvider1.SetError(txtInput, "");
+            }
+        }
+
         // if the radio button for industrial clients is clicked or selected utem moves to 
         // another entry run these statements
         private void radIndustrial_CheckedChanged(object sender, EventArgs e)
@@ -103,21 +134,28 @@ namespace RateCalc_PowerCo
         {
             // set Radio button to default to Residential customer
             radRes.Select();
+            //disable Calculate button
+            btnCalculate.Enabled = false;
             // reset information fields
             lblInput.Text = "Input kWh";
             lblAmount.Text = "";
             // reset the text fields
-            txtOffPeak.Text = "";
+            txtOffPeak.Text = "0";
             txtInput.Text = "0";
+            // if any errors were set clear them
+            errorProvider1.SetError(txtInput, "");
+            errorProvider1.SetError(txtOffPeak, "");
             // Select the data in txtInput
             txtInput.SelectAll();
             // set focus on txtInput item
             txtInput.Focus();
-        }
 
+        }
+        // Fires when the Calculate button is clicked, will test for valid data and 
+        // pass that into a method call to calculate the amount due by the client
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            // sets local varibles
+            // Set local varibles
 
             // Boolean values to determine client types for calculations later on
             // initialized to false as we are defaulting to a Residential client
@@ -129,19 +167,25 @@ namespace RateCalc_PowerCo
             // Varibles to store the data from input for the usage hours
             // optHours is only used if client is Industrial, set it to zero in the event it's
             // not set in the code below. The method requires a value to be passed through
-            int hours = 0, opHours = 0;
+            int hours = 0, opHours = 0, val;
 
             // Get values 
-            // all clients will use the hours variable
-            if (Validator.IsPresent(txtInput, "kWh"))
+
+            // Check txtInput for a valid integer, if false, display error icon and select data in field
+            if (Int32.TryParse(txtInput.Text, out val))
             {
+                // if the test passes, clear any previous errors and set the hours variable
+                errorProvider1.SetError(txtInput, "");
                 hours = Convert.ToInt32(txtInput.Text);
-            }else
+            }
+            else
             {
-                txtInput.Text = "0";
+                // if the test fails. flash the error icon, slect bad data and set the focus on test field
+                errorProvider1.SetError(txtInput, "Invalid data");
+                txtInput.SelectAll();
                 txtInput.Focus();
             }
-           if (radCommercial.Checked)
+            if (radCommercial.Checked)
             {
                 // sets the boolean for Commercial if radio button is 'checked'
                 IsCommercial = true;
@@ -151,14 +195,21 @@ namespace RateCalc_PowerCo
                 // sets the boolean for the Industrial client
                 IsIndustrial = true;
                 // sets the opHours variable to be passed into the method
-                if (Validator.IsPresent(txtOffPeak, "Off-peak kWh"))
+                // Check txtOffPeak for a valid integer, if false, display error icon and select data in field
+                if (Int32.TryParse(txtOffPeak.Text, out val))
                 {
+                    // if the test passes, clear any previous errors and set the opHours variable
+                    errorProvider1.SetError(txtOffPeak, "");
                     opHours = Convert.ToInt32(txtOffPeak.Text);
-                }else
+                }
+                else
                 {
-                    txtOffPeak.Text = "0";
+                    // if the test fails. flash the error icon, slect bad data and set the focus on test field
+                    errorProvider1.SetError(txtOffPeak, "Invalid data");
+                    txtOffPeak.SelectAll();
                     txtOffPeak.Focus();
                 }
+
             }
 
             // calculate values
@@ -166,13 +217,13 @@ namespace RateCalc_PowerCo
 
             // display values
             lblAmount.Text = total.ToString("c");
-
         }
 
            
         /// <summary>
         /// CalculateTotal method takes booleans and integers and performs various
-        /// calculations based on the boolens passed in
+        /// calculations based on the booleans passed in.
+        /// Default is residential customer
         /// </summary>
         /// <param name="IsIndustrial">determines if client is Industiral</param>
         /// <param name="IsCommercial">determines if client is Commercial</param>
@@ -238,11 +289,14 @@ namespace RateCalc_PowerCo
                     }
                     // add the Peak and Off Peak amounts 
                     total = indAmountPK + indAmountOP;
-                }else // otherwise client is Residential
-                {
-                    // multiply the hours by the rate per hour
-                    total = RES_FLAT + (RES_PER_HOUR * kWh);
                 }
+                
+                
+            }
+            else // otherwise client is Residential
+            {
+                // multiply the hours by the rate per hour
+                total = RES_FLAT + (RES_PER_HOUR * kWh);
             }
             // return the amount back to calling process
             return total;
