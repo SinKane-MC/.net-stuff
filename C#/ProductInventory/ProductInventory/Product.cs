@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleClass
+namespace ProductInventory
 {
     public class Product
     {
         // Private data
-        //private string name;
+        //private string name; // do not declare for auto implemented property
         private decimal price;
         private int qty;
 
@@ -52,6 +52,12 @@ namespace SimpleClass
         public override string ToString()
         {
             return Name + ": " + price.ToString("c") + ", "  + qty.ToString(); // for display purpose
+        }
+
+        // for writeing csv files
+        public string ToCSV()
+        {
+            return Name + "," + price.ToString() + "," + qty.ToString();
         }
 
     }

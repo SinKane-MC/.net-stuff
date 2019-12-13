@@ -38,7 +38,7 @@ namespace SimpleClass
         // Public operations
         public override string ToString()
         {
-            return name + ": " + salary.ToString("c");
+            return name + " with a salary of " + salary.ToString("c");
         }
 
 

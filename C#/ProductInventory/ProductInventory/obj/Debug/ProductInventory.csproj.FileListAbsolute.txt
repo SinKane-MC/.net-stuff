@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\ProductInventory\ProductInventory\bin\Debug\ProductInventory.exe.config
+C:\Git\.net-stuff\C#\ProductInventory\ProductInventory\bin\Debug\ProductInventory.exe
+C:\Git\.net-stuff\C#\ProductInventory\ProductInventory\bin\Debug\ProductInventory.pdb
+C:\Git\.net-stuff\C#\ProductInventory\ProductInventory\obj\Debug\ProductInventory.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\ProductInventory\ProductInventory\obj\Debug\ProductInventory.frmProducts.resources
+C:\Git\.net-stuff\C#\ProductInventory\ProductInventory\obj\Debug\ProductInventory.Properties.Resources.resources
+C:\Git\.net-stuff\C#\ProductInventory\ProductInventory\obj\Debug\ProductInventory.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\ProductInventory\ProductInventory\obj\Debug\ProductInventory.exe
+C:\Git\.net-stuff\C#\ProductInventory\ProductInventory\obj\Debug\ProductInventory.pdb
