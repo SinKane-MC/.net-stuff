@@ -9,17 +9,18 @@ namespace SimpleClass
     public class Product
     {
         // Private data
-        private string name;
+        //private string name;
         private decimal price;
         private int qty;
 
         // Public properties
-        public string Name
-        {
-            get { return name; }
-            set { name = value; } // assign value that is passed in when property is used             
-        }
-
+        //public string Name
+        //{
+        //    get { return name; }
+        //    set { name = value; } // assign value that is passed in when property is used             
+        //}
+        public string Name { get; set; } // auto implemented property
+        // creates a private (unnamed) variable behind the property
         public decimal Price
         {
             get { return price; }
@@ -43,9 +44,14 @@ namespace SimpleClass
         }
 
         // Public operations
+        public decimal InventoryValue()
+        {
+            return price * qty;
+        }
+        
         public override string ToString()
         {
-            return name + ": " + price.ToString("c") + ", "  + qty.ToString();
+            return Name + ": " + price.ToString("c") + ", "  + qty.ToString(); // for display purpose
         }
 
     }

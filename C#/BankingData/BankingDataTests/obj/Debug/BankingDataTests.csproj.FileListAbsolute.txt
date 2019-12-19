@@ -1,0 +1,15 @@
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\BankingDataTests.dll
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\BankingDataTests.pdb
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\BankingData.dll
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\BankingData.pdb
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\obj\Debug\BankingDataTests.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\obj\Debug\BankingDataTests.csproj.CopyComplete
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\obj\Debug\BankingDataTests.dll
+C:\Git\.net-stuff\C#\BankingData\BankingDataTests\obj\Debug\BankingDataTests.pdb
