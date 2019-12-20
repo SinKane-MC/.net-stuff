@@ -1,0 +1,6 @@
+C:\Users\jwarpech\source\repos\Shapes\Shapes\bin\Debug\Shapes.exe.config
+C:\Users\jwarpech\source\repos\Shapes\Shapes\bin\Debug\Shapes.exe
+C:\Users\jwarpech\source\repos\Shapes\Shapes\bin\Debug\Shapes.pdb
+C:\Users\jwarpech\source\repos\Shapes\Shapes\obj\Debug\Shapes.csprojAssemblyReference.cache
+C:\Users\jwarpech\source\repos\Shapes\Shapes\obj\Debug\Shapes.exe
+C:\Users\jwarpech\source\repos\Shapes\Shapes\obj\Debug\Shapes.pdb

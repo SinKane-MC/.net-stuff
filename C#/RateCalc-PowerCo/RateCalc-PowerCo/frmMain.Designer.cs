@@ -104,6 +104,7 @@
             this.radCommercial.TabStop = true;
             this.radCommercial.Text = "Commercial";
             this.radCommercial.UseVisualStyleBackColor = true;
+            this.radCommercial.CheckedChanged += new System.EventHandler(this.radCommercial_CheckedChanged);
             // 
             // radRes
             // 
@@ -115,6 +116,7 @@
             this.radRes.TabStop = true;
             this.radRes.Text = "Residential";
             this.radRes.UseVisualStyleBackColor = true;
+            this.radRes.CheckedChanged += new System.EventHandler(this.radRes_CheckedChanged);
             // 
             // btnCalculate
             // 
@@ -208,7 +210,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(730, 318);
+            this.ClientSize = new System.Drawing.Size(1038, 559);
             this.Controls.Add(this.txtOffPeak);
             this.Controls.Add(this.lblOffPeak);
             this.Controls.Add(this.lblAmount);

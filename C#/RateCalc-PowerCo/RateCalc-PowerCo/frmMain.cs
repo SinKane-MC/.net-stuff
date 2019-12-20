@@ -23,16 +23,9 @@ namespace RateCalc_PowerCo
         // I chose to use decimal as it is likely that clients will use fractions of hours
         // and this prevent the need for type casting or data conversions later on
 
-        // Sets the flat rate and rate per kWh for Residential customers
-        const decimal RES_FLAT = 6.00m, RES_PER_HOUR = 0.052m;
-        // Sets the flat rate and rate per kWh for Commercial customers
-        const decimal COM_FLAT = 60.00m, COM_PER_HOUR = 0.045m;
-        // set the base number of hours for both Commercial and Industrial clients 
-        // which is used to determine if additional charges are calculated
-        const int BASE_HOURS = 1000;
-        // Sets the flat rate and per kWh rates for both Peak and Off Peak usage for
-        // Industrial clients
-        const decimal IND_PK_FLAT = 76.00m, IND_PK_PER_HOUR = 0.065m, IND_OP_FLAT = 40.00m, IND_OP_PER_HOUR = 0.028m;
+        
+       
+        
         public frmMain()
         {
             InitializeComponent();
@@ -101,6 +94,16 @@ namespace RateCalc_PowerCo
             }
         }
 
+        private void radRes_CheckedChanged(object sender, EventArgs e)
+        {
+            txtInput.Focus();
+        }
+
+        private void radCommercial_CheckedChanged(object sender, EventArgs e)
+        {
+            txtInput.Focus();
+        }
+
         // if the radio button for industrial clients is clicked or selected utem moves to 
         // another entry run these statements
         private void radIndustrial_CheckedChanged(object sender, EventArgs e)
@@ -121,6 +124,7 @@ namespace RateCalc_PowerCo
                 txtOffPeak.Visible = false;
                 lblInput.Text = "Input kWh";
             }
+            txtInput.Focus();
         }
 
         //closes the application
@@ -219,87 +223,7 @@ namespace RateCalc_PowerCo
             lblAmount.Text = total.ToString("c");
         }
 
-           
-        /// <summary>
-        /// CalculateTotal method takes booleans and integers and performs various
-        /// calculations based on the booleans passed in.
-        /// Default is residential customer
-        /// </summary>
-        /// <param name="IsIndustrial">determines if client is Industiral</param>
-        /// <param name="IsCommercial">determines if client is Commercial</param>
-        /// <param name="kWh">Number of hours for Residential/Commercial or Peak hours
-        /// if client is Industrial</param>
-        /// <param name="opkWh">passes through the off Peak hours (if set)</param>
-        /// <returns>the calculated amount based on usage and client type</returns>
-        public decimal CalculateTotal(bool IsIndustrial, bool IsCommercial, int kWh, int opkWh)
-        {
-            // declare the return variable
-            decimal total = 0;
-            // checks if the information passed in is for either an Industrial or Commercial client
-            if (IsIndustrial || IsCommercial)
-            {
-                if (IsCommercial) 
-                {
-                    // If it's commercial, check if usage is over base amount
-                    if (kWh > BASE_HOURS)
-                    {
-                        // if it's over the base amount, subtract the base and multiply
-                        // the remainder by the rate per hour as defined for Commercial clients
-                        //  and add the flat fee to the per hour charges
-                        total = ((kWh - BASE_HOURS) * COM_PER_HOUR) + COM_FLAT;
-                    }
-                    else
-                    {
-                        // Usage was less then BASE_HOURS (1000 Hrs)
-                        // apply the flat rate only
-                        total = COM_FLAT;
-                    }
-                    
-                }
-                else if (IsIndustrial) // if client is Industrial
-                {
-                    // Set temporary varibles to perfrom some math for Peak and Off Peak charges
-                    decimal indAmountPK, indAmountOP;
-                    if (kWh > BASE_HOURS) 
-                    {
-                        // if the Peak usage is over the base amount, subtract
-                        // the base hours and multiply the remainder by the per hour rate
-                        // and add the flat rate fee
-                        indAmountPK = ((kWh - BASE_HOURS) * IND_PK_PER_HOUR) + IND_PK_FLAT;
-                    }
-                    else
-                    {
-                        // Usage was less then BASE_HOURS (1000 Hrs)
-                        // apply the flat rate only
-                        indAmountPK = IND_PK_FLAT;
-                    }
-
-                    if (opkWh > BASE_HOURS)
-                    {
-                        // if the Off Peak usage is over the base amount, subtract
-                        // the base hours and multiply the remainder by the Off Peak per hour
-                        // rate and add the Off Peak flat rate fee
-                        indAmountOP = ((opkWh - BASE_HOURS) * IND_OP_PER_HOUR) + IND_OP_FLAT;
-                    }
-                    else
-                    {
-                        // Usage was less then BASE_HOURS (1000 Hrs)
-                        // apply the flat rate only
-                        indAmountOP = IND_OP_FLAT;
-                    }
-                    // add the Peak and Off Peak amounts 
-                    total = indAmountPK + indAmountOP;
-                }
-                
-                
-            }
-            else // otherwise client is Residential
-            {
-                // multiply the hours by the rate per hour
-                total = RES_FLAT + (RES_PER_HOUR * kWh);
-            }
-            // return the amount back to calling process
-            return total;
-        }
+      
+       
     }
 }
