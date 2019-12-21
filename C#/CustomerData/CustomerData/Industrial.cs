@@ -8,7 +8,7 @@ namespace RateCalc_PowerCo
 {
     public class Industrial :Customer
     {
-        // set the base number of hours for both Commercial and Industrial clients 
+        // set the base number of hours for Industrial clients 
         // which is used to determine if additional charges are calculated
         const int BASE_HOURS = 1000;
         // Sets the flat rate and per kWh rates for both Peak and Off Peak usage for
@@ -75,8 +75,8 @@ namespace RateCalc_PowerCo
             set { chargeAmt = value; }
         }
 
-        public decimal PeakHours { get { return pkHours; } set { pkHours = value; } }
-        public decimal OffPeakHours { get { return opHours; } set { opHours = value; } }
+        public decimal PeakHours { get { return pkHours; } set {  pkHours = (value > 0) ? value : 0;  } }
+        public decimal OffPeakHours { get { return opHours; } set { opHours = (value > 0) ? value : 0; } }
         public override string ToString()
         {
             return name + "," + AccountNumber.ToString() + "," + acctType.ToString() + "," + chargeAmt.ToString("c");

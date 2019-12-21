@@ -30,7 +30,7 @@ namespace RateCalc_PowerCo
         public override decimal Hours
         {
             get { return hours; }
-            set { hours = value; }
+            set { hours = (value > 0) ? value : 0; }
         }
 
         public override  decimal ChargeAmount
