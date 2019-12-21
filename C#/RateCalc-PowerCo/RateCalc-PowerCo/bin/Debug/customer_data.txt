@@ -1,0 +1,4 @@
+TestRes,104,R,12.396
+TestComm,105,R,70.012
+TestInd,106,I,193.007
+TestInd,107,C,309.435

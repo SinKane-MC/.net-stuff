@@ -11,17 +11,46 @@ namespace RateCalc_PowerCo
     {
         // Sets the flat rate and rate per kWh for Residential customers
         private const decimal RES_FLAT = 6.00m, RES_PER_HOUR = 0.052m;
-        private decimal hours;
+        protected decimal hours;
+        protected decimal chargeAmt;
 
-        public Residential(string s, int a, char t, decimal usage):base(s,a,t)
+        public Residential()
         {
+
+        }
+
+        public Residential(string s, char t, decimal usage)
+        {
+            name = s;
+            acctType = t;
             hours = usage;
+        }
+
+        public override decimal ChargeAmount
+        {
+            get { return chargeAmt; }
+            set { chargeAmt = value; }
+        }
+
+        public override decimal Hours
+        {
+            get { return hours; }
+            set { hours = value; }
         }
         public override decimal CalculateRate()
         {
             decimal total;
             total = RES_FLAT + (RES_PER_HOUR * hours);
+            chargeAmt = total;
             return total;
+        }
+        public override string ToString()
+        {
+            return name + "," + AccountNumber.ToString() + "," + acctType.ToString() + "," + ChargeAmount.ToString("c");
+        }
+        public override string ToCSV()// for writing CSV file - no formatting
+        {
+            return name + "," + AccountNumber.ToString() + "," + acctType.ToString() + "," + ChargeAmount.ToString();
         }
     }
 }

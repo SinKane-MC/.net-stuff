@@ -1,0 +1,4 @@
+Big box,4.99,80
+Small box,2.99,50
+Gadget,7.99,30
+widget,10,30

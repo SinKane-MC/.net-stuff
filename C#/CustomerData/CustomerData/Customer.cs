@@ -9,26 +9,62 @@ namespace RateCalc_PowerCo
     abstract public class Customer
     {
         // private data
-        private string name;
-        private int acctNumber;
-        private char acctType;
+        protected string name;
+        protected int acctNumber;
+        private static int  nextNo = 100;
+        protected char acctType;
+        //protected decimal chargeAmt;
 
         // constructtor
-        public Customer(string s, int n, char t)
+        public Customer() { }
+        
+        public string Name
         {
-            name = s;
-            acctNumber = n;
-            acctType = t;
-
+            get { return name; }
+            set { name = value; }
+        }
+        public char AccountType
+        {
+            get { return acctType; }
+            set { acctType = value; }
+        }
+        public abstract decimal ChargeAmount { get; set; }
+        //{
+        //    get;// { return chargeAmt; }
+        //    set;// { chargeAmt = value; }
+        //}
+        public virtual decimal Hours { get; set; }
+        public int AccountNumber
+        {
+            get {  if (acctNumber >= 100)
+                {
+                    //nextNo = acctNumber;
+                }
+                else
+                {
+                    acctNumber = nextNo;
+                    nextNo++;
+                }
+                
+                return acctNumber;
+            }
+            set { acctNumber = value;
+                nextNo = value+1;
+            }
+        }
+        public virtual decimal CalculateRate()
+        {
+            return 0;
         }
 
-        public abstract decimal CalculateRate();
-          
-        
+
         public override string ToString()
         {
-            return base.ToString();
+            return name + "," + AccountNumber.ToString() + "," + acctType.ToString() + "," + CalculateRate().ToString("c");
         }
-
+        public virtual string ToCSV()// for writing CSV file - no formatting
+        {
+            return "0"; // name + "," + acctNumber.ToString() + "," + acctType.ToString() + "," + ChargeAmount.ToString();
+        }
     }
 }

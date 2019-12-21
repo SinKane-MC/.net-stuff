@@ -14,14 +14,23 @@ namespace RateCalc_PowerCo
         // Sets the flat rate and per kWh rates for both Peak and Off Peak usage for
         // Industrial clients
         const decimal IND_PK_FLAT = 76.00m, IND_PK_PER_HOUR = 0.065m, IND_OP_FLAT = 40.00m, IND_OP_PER_HOUR = 0.028m;
+        protected decimal chargeAmt;
 
-        private decimal pkHours, opHours;
-        public Industrial(string s, int a, char t, decimal pkUsage, decimal opUsage) : base(s, a, t)
+        public Industrial()
         {
+
+        }
+
+        protected decimal pkHours, opHours;
+        public Industrial(string s, char t, decimal pkUsage, decimal opUsage)
+        {
+            name = s;
+            acctType = t;
             pkHours = pkUsage;
             opHours = opUsage;
         }
 
+       
         public override decimal CalculateRate()
         {
             decimal total;
@@ -56,11 +65,26 @@ namespace RateCalc_PowerCo
             }
             // add the Peak and Off Peak amounts 
             total = indAmountPK + indAmountOP;
+            chargeAmt = total;
             return total;
         }
 
+        public override decimal ChargeAmount
+        {
+            get { return chargeAmt; }
+            set { chargeAmt = value; }
+        }
 
+        public decimal PeakHours { get { return pkHours; } set { pkHours = value; } }
+        public decimal OffPeakHours { get { return opHours; } set { opHours = value; } }
+        public override string ToString()
+        {
+            return name + "," + AccountNumber.ToString() + "," + acctType.ToString() + "," + chargeAmt.ToString("c");
+        }
 
-
+        public override string ToCSV()// for writing CSV file - no formatting
+        {
+            return name + "," + AccountNumber.ToString() + "," + acctType.ToString() + "," + chargeAmt.ToString();
+        }
     }
 }

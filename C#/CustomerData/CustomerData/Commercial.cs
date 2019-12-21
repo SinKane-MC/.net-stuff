@@ -13,13 +13,31 @@ namespace RateCalc_PowerCo
         // set the base number of hours for both Commercial and Industrial clients 
         // which is used to determine if additional charges are calculated
         const int BASE_HOURS = 1000;
-        private decimal hours;
+        protected decimal hours;
+        protected decimal chargeAmt;
 
-        public Commercial(string s, int a, char t, decimal usage) : base(s, a, t)
+        public Commercial()
         {
-            hours = usage;
+
         }
 
+        public Commercial(string s, char t, decimal usage)
+        {
+            name = s;
+            acctType = t;
+            hours = usage;
+        }
+        public override decimal Hours
+        {
+            get { return hours; }
+            set { hours = value; }
+        }
+
+        public override  decimal ChargeAmount
+        {
+            get { return chargeAmt; }
+            set { chargeAmt = value; }
+        }
 
         public override decimal CalculateRate()
         {
@@ -38,7 +56,17 @@ namespace RateCalc_PowerCo
                 // apply the flat rate only
                 total = COM_FLAT;
             }
+            chargeAmt = total;
             return total;
+        }
+
+        public override string ToString()
+        {
+            return name + "," + AccountNumber.ToString() + "," + acctType.ToString() + "," + chargeAmt.ToString("c");
+        }
+        public override string ToCSV()// for writing CSV file - no formatting
+        {
+            return name + "," + AccountNumber.ToString() + "," + acctType.ToString() + "," + chargeAmt.ToString();
         }
     }
 }

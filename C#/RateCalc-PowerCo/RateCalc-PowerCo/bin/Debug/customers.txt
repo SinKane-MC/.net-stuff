@@ -1,0 +1,9 @@
+TestRes,100,R,12.396
+TestComm,101,R,70.012
+TestInd,102,I,193.007
+TestInd,103,C,309.435
+WildData,104,R,22.692
+WildData2,105,C,159.495
+WildData3,106,I,263.159
+Test3,107,R,70.064
+Tester231,108,C,129.030

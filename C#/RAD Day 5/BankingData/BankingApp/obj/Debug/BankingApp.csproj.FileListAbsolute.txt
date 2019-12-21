@@ -1,0 +1,12 @@
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\bin\Debug\BankingApp.exe.config
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\bin\Debug\BankingApp.exe
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\bin\Debug\BankingApp.pdb
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\bin\Debug\BankingData.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\bin\Debug\BankingData.pdb
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\obj\Debug\BankingApp.csprojAssemblyReference.cache
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\obj\Debug\BankingApp.Form1.resources
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\obj\Debug\BankingApp.Properties.Resources.resources
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\obj\Debug\BankingApp.csproj.GenerateResource.cache
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\obj\Debug\BankingApp.csproj.CopyComplete
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\obj\Debug\BankingApp.exe
+C:\Users\jwarpech\source\repos\BankingData\BankingApp\obj\Debug\BankingApp.pdb
