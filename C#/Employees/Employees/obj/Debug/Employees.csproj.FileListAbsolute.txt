@@ -1,0 +1,6 @@
+C:\Git\.net-stuff\C#\Employees\Employees\obj\Debug\Employees.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\Employees\Employees\bin\Debug\Employees.exe.config
+C:\Git\.net-stuff\C#\Employees\Employees\bin\Debug\Employees.exe
+C:\Git\.net-stuff\C#\Employees\Employees\bin\Debug\Employees.pdb
+C:\Git\.net-stuff\C#\Employees\Employees\obj\Debug\Employees.exe
+C:\Git\.net-stuff\C#\Employees\Employees\obj\Debug\Employees.pdb

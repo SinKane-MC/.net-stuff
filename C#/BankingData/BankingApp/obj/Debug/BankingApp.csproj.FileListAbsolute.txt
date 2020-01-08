@@ -1,0 +1,12 @@
+C:\Git\.net-stuff\C#\BankingData\BankingApp\bin\Debug\BankingApp.exe.config
+C:\Git\.net-stuff\C#\BankingData\BankingApp\bin\Debug\BankingApp.exe
+C:\Git\.net-stuff\C#\BankingData\BankingApp\bin\Debug\BankingApp.pdb
+C:\Git\.net-stuff\C#\BankingData\BankingApp\bin\Debug\BankingData.dll
+C:\Git\.net-stuff\C#\BankingData\BankingApp\bin\Debug\BankingData.pdb
+C:\Git\.net-stuff\C#\BankingData\BankingApp\obj\Debug\BankingApp.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\BankingData\BankingApp\obj\Debug\BankingApp.Form1.resources
+C:\Git\.net-stuff\C#\BankingData\BankingApp\obj\Debug\BankingApp.Properties.Resources.resources
+C:\Git\.net-stuff\C#\BankingData\BankingApp\obj\Debug\BankingApp.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\BankingData\BankingApp\obj\Debug\BankingApp.csproj.CopyComplete
+C:\Git\.net-stuff\C#\BankingData\BankingApp\obj\Debug\BankingApp.exe
+C:\Git\.net-stuff\C#\BankingData\BankingApp\obj\Debug\BankingApp.pdb

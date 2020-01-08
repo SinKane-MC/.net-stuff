@@ -1,0 +1,6 @@
+C:\Git\.net-stuff\C#\Shapes\Shapes\bin\Debug\Shapes.exe.config
+C:\Git\.net-stuff\C#\Shapes\Shapes\bin\Debug\Shapes.exe
+C:\Git\.net-stuff\C#\Shapes\Shapes\bin\Debug\Shapes.pdb
+C:\Git\.net-stuff\C#\Shapes\Shapes\obj\Debug\Shapes.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\Shapes\Shapes\obj\Debug\Shapes.exe
+C:\Git\.net-stuff\C#\Shapes\Shapes\obj\Debug\Shapes.pdb
