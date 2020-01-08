@@ -1,0 +1,19 @@
+c:\users\jwarpech\documents\visual studio 2012\Projects\ClassesAggregationCards\ClassesAggregationCards\bin\Debug\ClassesAggregationCards.exe.config
+c:\users\jwarpech\documents\visual studio 2012\Projects\ClassesAggregationCards\ClassesAggregationCards\bin\Debug\ClassesAggregationCards.exe
+c:\users\jwarpech\documents\visual studio 2012\Projects\ClassesAggregationCards\ClassesAggregationCards\bin\Debug\ClassesAggregationCards.pdb
+c:\users\jwarpech\documents\visual studio 2012\Projects\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.csprojResolveAssemblyReference.cache
+c:\users\jwarpech\documents\visual studio 2012\Projects\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.Form1.resources
+c:\users\jwarpech\documents\visual studio 2012\Projects\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.Properties.Resources.resources
+c:\users\jwarpech\documents\visual studio 2012\Projects\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.csproj.GenerateResource.Cache
+c:\users\jwarpech\documents\visual studio 2012\Projects\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.exe
+c:\users\jwarpech\documents\visual studio 2012\Projects\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.pdb
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\bin\Debug\ClassesAggregationCards.exe.config
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.exe
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.pdb
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\bin\Debug\ClassesAggregationCards.exe
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\bin\Debug\ClassesAggregationCards.pdb
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.Form1.resources
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.Properties.Resources.resources
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.csproj.GenerateResource.Cache
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.csprojAssemblyReference.cache
+H:\OOSD\CPRG 200 C#\Day 5\ClassesAggregationCards\ClassesAggregationCards\obj\Debug\ClassesAggregationCards.csproj.CoreCompileInputs.cache

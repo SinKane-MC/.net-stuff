@@ -1,0 +1,15 @@
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\BankingDataTests.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\BankingDataTests.pdb
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\BankingData.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\BankingData.pdb
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\obj\Debug\BankingDataTests.csprojAssemblyReference.cache
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\obj\Debug\BankingDataTests.csproj.CopyComplete
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\obj\Debug\BankingDataTests.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingDataTests\obj\Debug\BankingDataTests.pdb

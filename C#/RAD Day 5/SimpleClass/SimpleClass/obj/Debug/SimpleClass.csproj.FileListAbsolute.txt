@@ -1,0 +1,6 @@
+C:\Users\jwarpech\source\repos\SimpleClass\SimpleClass\bin\Debug\SimpleClass.exe.config
+C:\Users\jwarpech\source\repos\SimpleClass\SimpleClass\bin\Debug\SimpleClass.exe
+C:\Users\jwarpech\source\repos\SimpleClass\SimpleClass\bin\Debug\SimpleClass.pdb
+C:\Users\jwarpech\source\repos\SimpleClass\SimpleClass\obj\Debug\SimpleClass.csprojAssemblyReference.cache
+C:\Users\jwarpech\source\repos\SimpleClass\SimpleClass\obj\Debug\SimpleClass.exe
+C:\Users\jwarpech\source\repos\SimpleClass\SimpleClass\obj\Debug\SimpleClass.pdb

@@ -1,0 +1,5 @@
+C:\Users\jwarpech\source\repos\BankingData\BankingData\bin\Debug\BankingData.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingData\bin\Debug\BankingData.pdb
+C:\Users\jwarpech\source\repos\BankingData\BankingData\obj\Debug\BankingData.csprojAssemblyReference.cache
+C:\Users\jwarpech\source\repos\BankingData\BankingData\obj\Debug\BankingData.dll
+C:\Users\jwarpech\source\repos\BankingData\BankingData\obj\Debug\BankingData.pdb

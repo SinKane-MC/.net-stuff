@@ -1,0 +1,15 @@
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\CustomerDataTests.dll
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\CustomerDataTests.pdb
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\CustomerData.dll
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\CustomerData.pdb
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\obj\Debug\CustomerDataTests.csprojAssemblyReference.cache
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\obj\Debug\CustomerDataTests.csproj.CopyComplete
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\obj\Debug\CustomerDataTests.dll
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\CustomerDataTests\obj\Debug\CustomerDataTests.pdb

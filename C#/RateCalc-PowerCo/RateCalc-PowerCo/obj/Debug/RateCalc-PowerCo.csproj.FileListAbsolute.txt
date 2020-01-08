@@ -16,3 +16,6 @@ C:\Git\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc_PowerC
 C:\Git\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.csproj.GenerateResource.cache
 C:\Git\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.exe
 C:\Git\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.pdb
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\bin\Debug\CustomerData.dll
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\bin\Debug\CustomerData.pdb
+C:\Git\OOSD\.net-stuff\C#\RateCalc-PowerCo\RateCalc-PowerCo\obj\Debug\RateCalc-PowerCo.csproj.CopyComplete
