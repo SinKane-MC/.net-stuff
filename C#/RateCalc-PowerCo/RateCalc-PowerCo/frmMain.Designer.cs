@@ -103,7 +103,7 @@
             this.radIndustrial.Size = new System.Drawing.Size(102, 28);
             this.radIndustrial.TabIndex = 2;
             this.radIndustrial.TabStop = true;
-            this.radIndustrial.Text = "Industrial";
+            this.radIndustrial.Text = "&Industrial";
             this.radIndustrial.UseVisualStyleBackColor = true;
             this.radIndustrial.CheckedChanged += new System.EventHandler(this.radIndustrial_CheckedChanged);
             // 
@@ -115,7 +115,7 @@
             this.radCommercial.Size = new System.Drawing.Size(129, 28);
             this.radCommercial.TabIndex = 1;
             this.radCommercial.TabStop = true;
-            this.radCommercial.Text = "Commercial";
+            this.radCommercial.Text = "&Commercial";
             this.radCommercial.UseVisualStyleBackColor = true;
             this.radCommercial.CheckedChanged += new System.EventHandler(this.radCommercial_CheckedChanged);
             // 
@@ -127,7 +127,7 @@
             this.radRes.Size = new System.Drawing.Size(120, 28);
             this.radRes.TabIndex = 0;
             this.radRes.TabStop = true;
-            this.radRes.Text = "Residential";
+            this.radRes.Text = "&Residential";
             this.radRes.UseVisualStyleBackColor = true;
             this.radRes.CheckedChanged += new System.EventHandler(this.radRes_CheckedChanged);
             // 
@@ -319,17 +319,18 @@
             this.lvCust.HideSelection = false;
             this.lvCust.Location = new System.Drawing.Point(685, 21);
             this.lvCust.Name = "lvCust";
-            this.lvCust.Size = new System.Drawing.Size(530, 349);
+            this.lvCust.Size = new System.Drawing.Size(611, 349);
             this.lvCust.TabIndex = 24;
             this.lvCust.UseCompatibleStateImageBehavior = false;
             this.lvCust.View = System.Windows.Forms.View.Details;
+            this.lvCust.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.lvCust_ColumnClick);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(1227, 382);
+            this.ClientSize = new System.Drawing.Size(1308, 382);
             this.Controls.Add(this.lvCust);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);

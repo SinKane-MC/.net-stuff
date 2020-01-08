@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -343,6 +344,23 @@ namespace RateCalc_PowerCo
            FileSystem.SaveCustomers(customers);
         }
 
-      
+        private void lvCust_ColumnClick(object sender, ColumnClickEventArgs e)
+        {
+            lvCust.ListViewItemSorter = new ListViewItemComparer(e.Column);
+        }
+
+        public class ListViewItemComparer : IComparer
+        {
+            private int col = 0;
+
+            public ListViewItemComparer(int column)
+            {
+                col = column;
+            }
+            public int Compare(object x, object y)
+            {
+                return String.Compare(((ListViewItem)x).SubItems[col].Text, ((ListViewItem)y).SubItems[col].Text);
+            }
+        }
     }
 }
