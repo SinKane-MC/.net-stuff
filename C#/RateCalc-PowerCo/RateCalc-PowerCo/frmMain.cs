@@ -26,20 +26,19 @@ namespace RateCalc_PowerCo
         List<Customer> customers = new List<Customer>();
         
        
-        
+        //initialize the components on the form
         public frmMain()
         {
             InitializeComponent();
 
         }
-        // Once the form is loaded and show, process these statements
+        // Once the form is loaded and shown, process these statements
         private void frmMain_Shown(object sender, EventArgs e)
         {
-            InitializeListView();
+            InitializeListView(); //setup the Listview
             txtName.Focus(); // set focus on Textbox when form is loaded and shown
-            customers = FileSystem.ReadCustomers();
-            //DisplayCustomers();
-            LoadCustomers();
+            customers = FileSystem.ReadCustomers(); // Read any existing 'records' from file into a List
+            LoadCustomers(); // runs one time during load to populate the listview with data from the List
         }
 
     
@@ -49,7 +48,7 @@ namespace RateCalc_PowerCo
         {
             //  e.KeyChar contains the character that was pressed
             // e.Handled is a boolean that indicates that handling is done
-            //if a bad character is entered, set e.Handled to true
+            //if a bad character is entered, set e.Handled to true and discard the keypress
             if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
             {
                 e.Handled = true;
@@ -61,7 +60,7 @@ namespace RateCalc_PowerCo
         {
             //  e.KeyChar contains the character that was pressed
             // e.Handled is a boolean that indicates that handling is done
-            //if a bad character is entered, set e.Handled to true
+            //if a bad character is entered, set e.Handled to true and discard the keypress
             if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)Keys.Back)
             {
                 e.Handled = true;
@@ -73,40 +72,40 @@ namespace RateCalc_PowerCo
         // if not show an error and disable the Calculate button
         private void txtOffPeak_KeyUp(object sender, KeyEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtOffPeak.Text))
+            if (string.IsNullOrWhiteSpace(txtOffPeak.Text)) // check if we have data in text field
             {
-                btnAdd.Enabled = false;
-                errorProvider1.SetError(txtOffPeak, "Value Required");
+                btnAdd.Enabled = false; // disable Add button
+                errorProvider1.SetError(txtOffPeak, "Value Required"); // set error and alert user
             }else
             {
-                btnAdd.Enabled = true;
-                errorProvider1.SetError(txtOffPeak, "");
+                btnAdd.Enabled = true; // enable Add button 
+                errorProvider1.SetError(txtOffPeak, ""); // clear any previous errors
             }
         }
         // Check after each key press to see if we have required data
         // if not show an error and disable the Calculate button
         private void txtInput_KeyUp(object sender, KeyEventArgs e)
-        {
+        {// check if we have data in the text field
             if (string.IsNullOrWhiteSpace(txtInput.Text) && !Validator.IsPresent(txtName, "Name"))
             {
-                btnAdd.Enabled = false;
-                errorProvider1.SetError(txtInput, "Value Required");
+                btnAdd.Enabled = false; // disable Add button
+                errorProvider1.SetError(txtInput, "Value Required"); // set error and alert user
             }
             else
             {
-                btnAdd.Enabled = true;
-                errorProvider1.SetError(txtInput, "");
+                btnAdd.Enabled = true; // Enable Add button
+                errorProvider1.SetError(txtInput, ""); // clear any previous error
             }
         }
 
         private void radRes_CheckedChanged(object sender, EventArgs e)
         {
-            txtInput.Focus();
+            txtName.Focus(); // set focus on Name field after changing the Customer type
         }
 
         private void radCommercial_CheckedChanged(object sender, EventArgs e)
         {
-            txtInput.Focus();
+            txtName.Focus(); // set focus on Name field after changing the Customer type
         }
 
         // if the radio button for industrial clients is clicked or selected utem moves to 
@@ -129,7 +128,7 @@ namespace RateCalc_PowerCo
                 txtOffPeak.Visible = false;
                 lblInput.Text = "Input kWh";
             }
-            txtInput.Focus();
+            txtName.Focus(); // set focus on the Name field 
         }
 
         //closes the application
@@ -172,17 +171,19 @@ namespace RateCalc_PowerCo
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             // Create a Base Customer object that will hold the object info
-            //Customer client1 = new Customer();
-            // optHours is only used if client is Industrial, set it to zero in the event it's
-            // not set in the code below. The method requires a value to be passed through
+          
+            
+            // set a few varibles for later use
             int hours = 0, opHours = 0;
             string name;
+            // set default customer 'Type' to residential
             char type = 'R';
-            // Get values 
+            // check if we have a client name
             if (Validator.IsPresent(txtName, "Name"))
             {
-                name = txtName.Text;
-                // Check txtInput for a valid integer, if false, display error icon and select data in field
+                name = txtName.Text; // set the name variable
+                // Check txtInput for a valid integer, if false, display error icon 
+                // and select data in field
                 if (Int32.TryParse(txtInput.Text, out int val))
                 {
                     // if the test passes, clear any previous errors and set the hours variable
@@ -191,7 +192,8 @@ namespace RateCalc_PowerCo
                 }
                 else
                 {
-                    // if the test fails. flash the error icon, slect bad data and set the focus on test field
+                    // if the test fails. flash the error icon, select bad data 
+                    // and set the focus on text field
                     errorProvider1.SetError(txtInput, "Invalid data");
                     txtInput.SelectAll();
                     txtInput.Focus();
@@ -199,25 +201,20 @@ namespace RateCalc_PowerCo
 
                 if (radCommercial.Checked)
                 {
-                    // sets the type as Commercial;
-                    type = 'C';
+                    type = 'C'; // sets the 'Type' as Commercial;
                     // creates a new Commercial customer object
                     Commercial client = new Commercial();
-                    // set the uages hours
-                    client.Hours = hours;
-                    // asigns the Commercial client to a temp Client so it can be added to the Customers List 
-                    client.Name = name;
-                    client.AccountType = type;
-                    client.CalculateRate();
-                    // add the customer to the List
-                    customers.Add(client);
-
-
+                    client.Hours = hours; // set the usage hours
+                    client.Name = name; // set name attribute
+                    client.AccountType = type; // set the 'Type'
+                    client.CalculateRate(); // calculate the payout
+                    customers.Add(client); // add the customer to the List
                 }
                 else if (radIndustrial.Checked)
                 {
                     // sets the opHours variable to be passed into the method
-                    // Check txtOffPeak for a valid integer, if false, display error icon and select data in field
+                    // Check txtOffPeak for a valid integer, if false, 
+                    // display error icon and select data in field
                     if (Int32.TryParse(txtOffPeak.Text, out val))
                     {
                         // if the test passes, clear any previous errors and set the opHours variable
@@ -226,55 +223,49 @@ namespace RateCalc_PowerCo
                     }
                     else
                     {
-                        // if the test fails. flash the error icon, slect bad data and set the focus on test field
+                        // if the test fails. flash the error icon, select bad data 
+                        // and set the focus on test field
                         errorProvider1.SetError(txtOffPeak, "Invalid data");
                         txtOffPeak.SelectAll();
                         txtOffPeak.Focus();
                     }
-                    // sets the type as Industrial
-                    type = 'I';
-                    // creates a new Industrial customer object
-                    Industrial client = new Industrial();
-                    // sets Peak and Off Peak usage
-                    client.PeakHours = hours;
-                    client.OffPeakHours = opHours;
-                    // asigns the Industrial client to a temp Client so it can be added to the Customers List 
-                    client.Name = name;
-                    client.AccountType = type;
-                    client.CalculateRate();
-                    // add the customer to the List
-                    customers.Add(client);
+                    type = 'I'; // sets the type as Industrial
+                    Industrial client = new Industrial(); // creates a new Industrial customer object
+                    client.PeakHours = hours; // sets Peak usage
+                    client.OffPeakHours = opHours; // set Off Peak usage
+                    client.Name = name; // set name
+                    client.AccountType = type; // set 'Type'
+                    client.CalculateRate(); // Calculate the payout
+                    customers.Add(client); // add the customer to the List
                 }
                 else
                 {
                     // type is (R)esidential by default
                     // create new Residential customer object
                     Residential client = new Residential();
-                    // sets usage hours
-                    client.Hours = hours;
-                    // assign the Residential Client to a temp Client so it can be added to the Customer List
-                    client.Name = name;
-                    client.AccountType = type;
-                    client.CalculateRate();
-                    // add the customer to the List
-                    customers.Add(client);
+                    client.Hours = hours; // sets usage hours
+                    client.Name = name; // set Name
+                    client.AccountType = type; // set 'Type'
+                    client.CalculateRate(); // Calculate the Payout
+                    customers.Add(client); // add the customer to the List
                 }
-               
-                DisplayCustomers();
+                DisplayCustomers(); // update the ListView
             }
         }
+        /// <summary>
+        /// DisplayCustomers will update the ListView and call the UpdateTotals
+        /// </summary>
         public void DisplayCustomers()
         {
-            //string cust;
             lvCust.Items.Clear();
             decimal resAmt=0, commAmt=0, indAmt=0, totalAmt=0;
-            foreach (Customer c in customers)
+            foreach (Customer c in customers) // proces the List of customers
             {
 
-                lvCust.Items.Add(new ListViewItem(c.ToString().Split(',')));
-                totalAmt += c.ChargeAmount;
-                if(c.AccountType == 'R')
-                {
+                lvCust.Items.Add(new ListViewItem(c.ToString().Split(','))); // add to the listview
+                totalAmt += c.ChargeAmount; // set the total Amount used in the UpdateTotals method
+                if(c.AccountType == 'R') // determine the client type and set the corresponding
+                {                        // Amt varible for use in UpdateTotals
                     resAmt += c.ChargeAmount;
                 }else if (c.AccountType == 'C')
                 {
@@ -285,22 +276,27 @@ namespace RateCalc_PowerCo
                 }
 
 
-            }
+            }// call UpdateTotals to refresh info on the form
             UpdateTotals(totalAmt,resAmt,commAmt,indAmt, lvCust.Items.Count);
         }
-        public void LoadCustomers()
-        {
-            //string cust;
-            decimal resAmt = 0, commAmt = 0, indAmt = 0, totalAmt = 0, tmpAmt=0;
-            for(int i=0; i < customers.Count; i++)
-            {
-                string[] tmp = customers[i].ToString().Split(',');
-                tmpAmt = Convert.ToDecimal(tmp[3].Remove(0,1));
 
-                lvCust.Items.Add(new ListViewItem(tmp));
-                totalAmt += tmpAmt;
-                if (customers[i].AccountType == 'R')
-                {
+        /// <summary>
+        /// LoadCustomers is run only once, during form initialzation
+        /// gets infor from the List generate from the ReadFile method
+        /// and updates the form controls wit the information
+        /// </summary>
+        public void LoadCustomers()
+        {// set variables to use later on
+            decimal resAmt = 0, commAmt = 0, indAmt = 0, totalAmt = 0, tmpAmt=0;
+            for(int i=0; i < customers.Count; i++) // loop through the List
+            {
+                string[] tmp = customers[i].ToString().Split(',');// convert item to a text string array
+                tmpAmt = Convert.ToDecimal(tmp[3].Remove(0,1));  // pull the 4th item out and assign it 
+                 // to a temp Variable for processing, also remove the $ from the sting for conversion
+                lvCust.Items.Add(new ListViewItem(tmp)); // add the item to the list
+                totalAmt += tmpAmt; // item the amount to the global variable
+                if (customers[i].AccountType == 'R') // determine Customer 'Type' and assign the 
+                {                                    // amoun to the corresponding variable
                     resAmt += tmpAmt;
                 }
                 else if (customers[i].AccountType == 'C')
@@ -311,14 +307,17 @@ namespace RateCalc_PowerCo
                 {
                     indAmt += tmpAmt;
                 }
-
-
-            }
-            
-
+            } // call UpdateTotals to refresh information on the form
             UpdateTotals(totalAmt, resAmt, commAmt, indAmt, lvCust.Items.Count);
         }
-
+        /// <summary>
+        /// UpdateTotals will update the various labels on the form
+        /// </summary>
+        /// <param name="total">amount of total billing</param>
+        /// <param name="res">amount of total billing for Residential</param>
+        /// <param name="comm">amount of total billing for Commercial</param>
+        /// <param name="ind">amount of total billing for Industrial</param>
+        /// <param name="count">total number of items in the ListView</param>
         private void UpdateTotals(decimal total, decimal res, decimal comm, decimal ind, int count)
         {
            
@@ -327,9 +326,13 @@ namespace RateCalc_PowerCo
             lblResSum.Text = res.ToString("c");
             lblComSum.Text = comm.ToString("c");
             lblIndSum.Text = ind.ToString("c");
-            ClearForm();
+            ClearForm(); // clears text fields to prepare for more entries
             
         }
+        /// <summary>
+        /// initialize the ListView control\
+        /// add columns, set names and sizes
+        /// </summary>
         public void InitializeListView()
         {
             lvCust.Columns.Add("Client Name",210);
@@ -341,14 +344,16 @@ namespace RateCalc_PowerCo
 
         private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
-           FileSystem.SaveCustomers(customers);
+           FileSystem.SaveCustomers(customers); // save data on App unload
         }
 
         private void lvCust_ColumnClick(object sender, ColumnClickEventArgs e)
-        {
-            lvCust.ListViewItemSorter = new ListViewItemComparer(e.Column);
+        {// sort the data based on column clicked
+            lvCust.ListViewItemSorter = new ListViewItemComparer(e.Column); 
         }
-
+        /// <summary>
+        /// Sorts the ListView based on the Column header clicked
+        /// </summary>
         public class ListViewItemComparer : IComparer
         {
             private int col = 0;

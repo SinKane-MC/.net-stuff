@@ -6,3 +6,11 @@ C:\Git\OOSD\.net-stuff\C#\CustomerData\CustomerData\obj\Debug\netstandard2.0\Cus
 C:\Git\OOSD\.net-stuff\C#\CustomerData\CustomerData\obj\Debug\netstandard2.0\CustomerData.AssemblyInfo.cs
 C:\Git\OOSD\.net-stuff\C#\CustomerData\CustomerData\obj\Debug\netstandard2.0\CustomerData.dll
 C:\Git\OOSD\.net-stuff\C#\CustomerData\CustomerData\obj\Debug\netstandard2.0\CustomerData.pdb
+C:\Git\.net-stuff\C#\CustomerData\CustomerData\bin\Debug\netstandard2.0\CustomerData.deps.json
+C:\Git\.net-stuff\C#\CustomerData\CustomerData\bin\Debug\netstandard2.0\CustomerData.dll
+C:\Git\.net-stuff\C#\CustomerData\CustomerData\bin\Debug\netstandard2.0\CustomerData.pdb
+C:\Git\.net-stuff\C#\CustomerData\CustomerData\obj\Debug\netstandard2.0\CustomerData.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\CustomerData\CustomerData\obj\Debug\netstandard2.0\CustomerData.AssemblyInfoInputs.cache
+C:\Git\.net-stuff\C#\CustomerData\CustomerData\obj\Debug\netstandard2.0\CustomerData.AssemblyInfo.cs
+C:\Git\.net-stuff\C#\CustomerData\CustomerData\obj\Debug\netstandard2.0\CustomerData.dll
+C:\Git\.net-stuff\C#\CustomerData\CustomerData\obj\Debug\netstandard2.0\CustomerData.pdb

@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace RateCalc_PowerCo
-{
+{/// <summary>
+/// Base class for Customer Entities
+/// </summary>
     abstract public class Customer
     {
         // private data
@@ -29,16 +31,13 @@ namespace RateCalc_PowerCo
             set { acctType = value; }
         }
         public abstract decimal ChargeAmount { get; set; }
-        //{
-        //    get;// { return chargeAmt; }
-        //    set;// { chargeAmt = value; }
-        //}
+       
         public virtual decimal Hours { get; set; }
         public int AccountNumber
         {
             get {  if (acctNumber >= 100)
                 {
-                    //nextNo = acctNumber;
+                    //do nothing
                 }
                 else
                 {
@@ -64,7 +63,7 @@ namespace RateCalc_PowerCo
         }
         public virtual string ToCSV()// for writing CSV file - no formatting
         {
-            return "0"; // name + "," + acctNumber.ToString() + "," + acctType.ToString() + "," + ChargeAmount.ToString();
+            return "0"; 
         }
     }
 }

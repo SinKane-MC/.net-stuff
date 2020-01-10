@@ -100,7 +100,7 @@
             this.radIndustrial.AutoSize = true;
             this.radIndustrial.Location = new System.Drawing.Point(7, 79);
             this.radIndustrial.Name = "radIndustrial";
-            this.radIndustrial.Size = new System.Drawing.Size(102, 28);
+            this.radIndustrial.Size = new System.Drawing.Size(131, 33);
             this.radIndustrial.TabIndex = 2;
             this.radIndustrial.TabStop = true;
             this.radIndustrial.Text = "&Industrial";
@@ -112,7 +112,7 @@
             this.radCommercial.AutoSize = true;
             this.radCommercial.Location = new System.Drawing.Point(7, 54);
             this.radCommercial.Name = "radCommercial";
-            this.radCommercial.Size = new System.Drawing.Size(129, 28);
+            this.radCommercial.Size = new System.Drawing.Size(164, 33);
             this.radCommercial.TabIndex = 1;
             this.radCommercial.TabStop = true;
             this.radCommercial.Text = "&Commercial";
@@ -124,7 +124,7 @@
             this.radRes.AutoSize = true;
             this.radRes.Location = new System.Drawing.Point(7, 29);
             this.radRes.Name = "radRes";
-            this.radRes.Size = new System.Drawing.Size(120, 28);
+            this.radRes.Size = new System.Drawing.Size(155, 33);
             this.radRes.TabIndex = 0;
             this.radRes.TabStop = true;
             this.radRes.Text = "&Residential";
@@ -167,7 +167,7 @@
             this.lblInput.AutoSize = true;
             this.lblInput.Location = new System.Drawing.Point(439, 58);
             this.lblInput.Name = "lblInput";
-            this.lblInput.Size = new System.Drawing.Size(94, 24);
+            this.lblInput.Size = new System.Drawing.Size(118, 29);
             this.lblInput.TabIndex = 6;
             this.lblInput.Text = "Input kWh";
             // 
@@ -175,7 +175,7 @@
             // 
             this.txtInput.Location = new System.Drawing.Point(569, 58);
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(100, 29);
+            this.txtInput.Size = new System.Drawing.Size(100, 34);
             this.txtInput.TabIndex = 4;
             this.txtInput.Text = "0";
             this.txtInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInput_KeyPress);
@@ -196,7 +196,7 @@
             // 
             this.txtOffPeak.Location = new System.Drawing.Point(569, 94);
             this.txtOffPeak.Name = "txtOffPeak";
-            this.txtOffPeak.Size = new System.Drawing.Size(100, 29);
+            this.txtOffPeak.Size = new System.Drawing.Size(100, 34);
             this.txtOffPeak.TabIndex = 5;
             this.txtOffPeak.Text = "0";
             this.txtOffPeak.Visible = false;
@@ -209,7 +209,7 @@
             this.lblOffPeak.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOffPeak.Location = new System.Drawing.Point(439, 94);
             this.lblOffPeak.Name = "lblOffPeak";
-            this.lblOffPeak.Size = new System.Drawing.Size(123, 24);
+            this.lblOffPeak.Size = new System.Drawing.Size(158, 29);
             this.lblOffPeak.TabIndex = 9;
             this.lblOffPeak.Text = "Off-peak kWh";
             this.lblOffPeak.Visible = false;
@@ -222,7 +222,7 @@
             // 
             this.txtName.Location = new System.Drawing.Point(506, 21);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(163, 29);
+            this.txtName.Size = new System.Drawing.Size(163, 34);
             this.txtName.TabIndex = 3;
             // 
             // label3
@@ -230,7 +230,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(439, 21);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 24);
+            this.label3.Size = new System.Drawing.Size(78, 29);
             this.label3.TabIndex = 12;
             this.label3.Text = "Name";
             // 
@@ -327,7 +327,7 @@
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(1308, 382);
