@@ -27,6 +27,8 @@ namespace CustomerDetails
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'mMABooksDataSet.Invoices' table. You can move, or remove it, as needed.
+            this.invoicesTableAdapter.Fill(this.mMABooksDataSet.Invoices);
             // TODO: This line of code loads data into the 'mMABooksDataSet.States' table. You can move, or remove it, as needed.
             this.statesTableAdapter.Fill(this.mMABooksDataSet.States);
             // TODO: This line of code loads data into the 'mMABooksDataSet.Customers' table. You can move, or remove it, as needed.
