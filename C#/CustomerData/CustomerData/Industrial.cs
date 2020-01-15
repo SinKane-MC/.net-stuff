@@ -15,13 +15,14 @@ namespace RateCalc_PowerCo
         // Industrial clients
         const decimal IND_PK_FLAT = 76.00m, IND_PK_PER_HOUR = 0.065m, IND_OP_FLAT = 40.00m, IND_OP_PER_HOUR = 0.028m;
         protected decimal chargeAmt;
+        protected decimal pkHours, opHours;
 
+        //Default Constructor
         public Industrial()
         {
 
         }
-
-        protected decimal pkHours, opHours;
+        // Constructor
         public Industrial(string s, char t, decimal pkUsage, decimal opUsage)
         {
             name = s;
@@ -30,7 +31,10 @@ namespace RateCalc_PowerCo
             opHours = opUsage;
         }
 
-       
+       /// <summary>
+       /// CalculateRate returns the calculated pay amount based on entity pkhours & ophours
+       /// </summary>
+       /// <returns>total</returns>
         public override decimal CalculateRate()
         {
             decimal total;
@@ -65,18 +69,22 @@ namespace RateCalc_PowerCo
             }
             // add the Peak and Off Peak amounts 
             total = indAmountPK + indAmountOP;
-            chargeAmt = total;
+            chargeAmt = total; // set entity chargeamt attribute
             return total;
         }
-
+        // Public Attribute ChargeAmt, used primarily for savinf and reading client info from file
         public override decimal ChargeAmount
         {
             get { return chargeAmt; }
             set { chargeAmt = value; }
         }
-
+        // Public Attributes for Setting/Getting Peak and Off Peak usage
         public decimal PeakHours { get { return pkHours; } set {  pkHours = (value > 0) ? value : 0;  } }
         public decimal OffPeakHours { get { return opHours; } set { opHours = (value > 0) ? value : 0; } }
+        /// <summary>
+        /// ToString - provides a formatted output string
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return name + "," + AccountNumber.ToString() + "," + acctType.ToString() + "," + chargeAmt.ToString("c");

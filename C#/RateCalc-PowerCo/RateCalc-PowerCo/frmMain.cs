@@ -143,7 +143,9 @@ namespace RateCalc_PowerCo
             ClearForm();
 
         }
-
+        /// <summary>
+        /// Function to reset form items to 'defaults'
+        /// </summary>
         private void ClearForm()
         {
             // set Radio button to default to Residential customer
@@ -171,8 +173,6 @@ namespace RateCalc_PowerCo
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             // Create a Base Customer object that will hold the object info
-          
-            
             // set a few varibles for later use
             int hours = 0, opHours = 0;
             string name;
@@ -282,7 +282,7 @@ namespace RateCalc_PowerCo
 
         /// <summary>
         /// LoadCustomers is run only once, during form initialzation
-        /// gets infor from the List generate from the ReadFile method
+        /// gets info from the List generate from the ReadFile method
         /// and updates the form controls wit the information
         /// </summary>
         public void LoadCustomers()
@@ -330,7 +330,7 @@ namespace RateCalc_PowerCo
             
         }
         /// <summary>
-        /// initialize the ListView control\
+        /// initialize the ListView control
         /// add columns, set names and sizes
         /// </summary>
         public void InitializeListView()

@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\DBApp3\DBApp3\bin\Debug\DBApp3.exe.config
+C:\Git\.net-stuff\C#\DBApp3\DBApp3\bin\Debug\DBApp3.exe
+C:\Git\.net-stuff\C#\DBApp3\DBApp3\bin\Debug\DBApp3.pdb
+C:\Git\.net-stuff\C#\DBApp3\DBApp3\obj\Debug\DBApp3.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\DBApp3\DBApp3\obj\Debug\DBApp3.Properties.Resources.resources
+C:\Git\.net-stuff\C#\DBApp3\DBApp3\obj\Debug\DBApp3.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\DBApp3\DBApp3\obj\Debug\DBApp3.exe
+C:\Git\.net-stuff\C#\DBApp3\DBApp3\obj\Debug\DBApp3.pdb
+C:\Git\.net-stuff\C#\DBApp3\DBApp3\obj\Debug\DBApp3.Form1.resources

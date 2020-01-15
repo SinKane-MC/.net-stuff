@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\ProductSearch\ProductSearch\bin\Debug\ProductSearch.exe.config
+C:\Git\.net-stuff\C#\ProductSearch\ProductSearch\bin\Debug\ProductSearch.exe
+C:\Git\.net-stuff\C#\ProductSearch\ProductSearch\bin\Debug\ProductSearch.pdb
+C:\Git\.net-stuff\C#\ProductSearch\ProductSearch\obj\Debug\ProductSearch.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\ProductSearch\ProductSearch\obj\Debug\ProductSearch.Form1.resources
+C:\Git\.net-stuff\C#\ProductSearch\ProductSearch\obj\Debug\ProductSearch.Properties.Resources.resources
+C:\Git\.net-stuff\C#\ProductSearch\ProductSearch\obj\Debug\ProductSearch.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\ProductSearch\ProductSearch\obj\Debug\ProductSearch.exe
+C:\Git\.net-stuff\C#\ProductSearch\ProductSearch\obj\Debug\ProductSearch.pdb

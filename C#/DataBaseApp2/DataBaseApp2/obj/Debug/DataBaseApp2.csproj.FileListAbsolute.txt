@@ -1,0 +1,11 @@
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\bin\Debug\MMABooks.mdf
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\bin\Debug\MMABooks_log.ldf
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\bin\Debug\DataBaseApp2.exe.config
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\bin\Debug\DataBaseApp2.exe
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\bin\Debug\DataBaseApp2.pdb
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\obj\Debug\DataBaseApp2.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\obj\Debug\DataBaseApp2.Form1.resources
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\obj\Debug\DataBaseApp2.Properties.Resources.resources
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\obj\Debug\DataBaseApp2.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\obj\Debug\DataBaseApp2.exe
+C:\Git\.net-stuff\C#\DataBaseApp2\DataBaseApp2\obj\Debug\DataBaseApp2.pdb

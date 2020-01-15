@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\DatabaseDemo1\DatabaseDemo1\bin\Debug\DatabaseDemo1.exe.config
+C:\Git\.net-stuff\C#\DatabaseDemo1\DatabaseDemo1\bin\Debug\DatabaseDemo1.exe
+C:\Git\.net-stuff\C#\DatabaseDemo1\DatabaseDemo1\bin\Debug\DatabaseDemo1.pdb
+C:\Git\.net-stuff\C#\DatabaseDemo1\DatabaseDemo1\obj\Debug\DatabaseDemo1.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\DatabaseDemo1\DatabaseDemo1\obj\Debug\DatabaseDemo1.Form1.resources
+C:\Git\.net-stuff\C#\DatabaseDemo1\DatabaseDemo1\obj\Debug\DatabaseDemo1.Properties.Resources.resources
+C:\Git\.net-stuff\C#\DatabaseDemo1\DatabaseDemo1\obj\Debug\DatabaseDemo1.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\DatabaseDemo1\DatabaseDemo1\obj\Debug\DatabaseDemo1.exe
+C:\Git\.net-stuff\C#\DatabaseDemo1\DatabaseDemo1\obj\Debug\DatabaseDemo1.pdb

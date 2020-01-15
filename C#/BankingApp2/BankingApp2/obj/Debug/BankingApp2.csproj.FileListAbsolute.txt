@@ -1,0 +1,7 @@
+C:\Git\.net-stuff\C#\BankingApp2\BankingApp2\bin\Debug\BankingApp2.exe.config
+C:\Git\.net-stuff\C#\BankingApp2\BankingApp2\bin\Debug\BankingApp2.exe
+C:\Git\.net-stuff\C#\BankingApp2\BankingApp2\bin\Debug\BankingApp2.pdb
+C:\Git\.net-stuff\C#\BankingApp2\BankingApp2\obj\Debug\BankingApp2.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\BankingApp2\BankingApp2\obj\Debug\BankingApp2.exe
+C:\Git\.net-stuff\C#\BankingApp2\BankingApp2\obj\Debug\BankingApp2.pdb
+C:\Git\.net-stuff\C#\BankingApp2\BankingApp2\obj\Debug\BankingApp2.csproj.CoreCompileInputs.cache

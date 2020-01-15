@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\CustomerDetails\CustomerDetails\bin\Debug\CustomerDetails.exe.config
+C:\Git\.net-stuff\C#\CustomerDetails\CustomerDetails\bin\Debug\CustomerDetails.exe
+C:\Git\.net-stuff\C#\CustomerDetails\CustomerDetails\bin\Debug\CustomerDetails.pdb
+C:\Git\.net-stuff\C#\CustomerDetails\CustomerDetails\obj\Debug\CustomerDetails.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\CustomerDetails\CustomerDetails\obj\Debug\CustomerDetails.Form1.resources
+C:\Git\.net-stuff\C#\CustomerDetails\CustomerDetails\obj\Debug\CustomerDetails.Properties.Resources.resources
+C:\Git\.net-stuff\C#\CustomerDetails\CustomerDetails\obj\Debug\CustomerDetails.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\CustomerDetails\CustomerDetails\obj\Debug\CustomerDetails.exe
+C:\Git\.net-stuff\C#\CustomerDetails\CustomerDetails\obj\Debug\CustomerDetails.pdb

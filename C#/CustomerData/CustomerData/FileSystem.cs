@@ -8,7 +8,10 @@ namespace RateCalc_PowerCo
     public class FileSystem
     {
         const string path = "customers.txt"; // located in bin/Debug folder
-
+        /// <summary>
+        /// ReadCustomers is called to read information stored in a file 
+        /// </summary>
+        /// <returns> a list of customer entities</returns>
         public static List<Customer> ReadCustomers()
         {
             //List<Customer> custList = new Customer();
@@ -27,6 +30,7 @@ namespace RateCalc_PowerCo
                         
                         line = sr.ReadLine();
                         fields = line.Split(',');// split where the commas are
+                        //Create corresponding Customer entity based on the 'Type'
                        if(Convert.ToChar(fields[2]) == 'R')
                         {
                             Residential c = new Residential();
@@ -57,9 +61,12 @@ namespace RateCalc_PowerCo
                     }
                 } // closes sr and recycles
             } // closes fs and recycles
-            return custList;
+            return custList; // returns the list of customers read from disk
         }
-
+        /// <summary>
+        /// Used to save customer information to a file for subsequent retrieval
+        /// </summary>
+        /// <param name="custList">List of Customer enities</param>
         public static void SaveCustomers(List<Customer> custList)
         {
             using (FileStream fs = new FileStream(path, FileMode.Create,
