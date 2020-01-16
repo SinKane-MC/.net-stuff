@@ -102,100 +102,90 @@
             // productIDLabel
             // 
             productIDLabel.AutoSize = true;
-            productIDLabel.Location = new System.Drawing.Point(16, 32);
-            productIDLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            productIDLabel.Location = new System.Drawing.Point(21, 39);
             productIDLabel.Name = "productIDLabel";
-            productIDLabel.Size = new System.Drawing.Size(61, 13);
+            productIDLabel.Size = new System.Drawing.Size(78, 17);
             productIDLabel.TabIndex = 1;
             productIDLabel.Text = "Product ID:";
             // 
             // productNameLabel
             // 
             productNameLabel.AutoSize = true;
-            productNameLabel.Location = new System.Drawing.Point(16, 55);
-            productNameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            productNameLabel.Location = new System.Drawing.Point(21, 68);
             productNameLabel.Name = "productNameLabel";
-            productNameLabel.Size = new System.Drawing.Size(78, 13);
+            productNameLabel.Size = new System.Drawing.Size(102, 17);
             productNameLabel.TabIndex = 3;
             productNameLabel.Text = "Product Name:";
             // 
             // supplierIDLabel
             // 
             supplierIDLabel.AutoSize = true;
-            supplierIDLabel.Location = new System.Drawing.Point(16, 78);
-            supplierIDLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            supplierIDLabel.Location = new System.Drawing.Point(21, 96);
             supplierIDLabel.Name = "supplierIDLabel";
-            supplierIDLabel.Size = new System.Drawing.Size(62, 13);
+            supplierIDLabel.Size = new System.Drawing.Size(81, 17);
             supplierIDLabel.TabIndex = 5;
             supplierIDLabel.Text = "Supplier ID:";
             // 
             // categoryIDLabel
             // 
             categoryIDLabel.AutoSize = true;
-            categoryIDLabel.Location = new System.Drawing.Point(16, 103);
-            categoryIDLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            categoryIDLabel.Location = new System.Drawing.Point(21, 127);
             categoryIDLabel.Name = "categoryIDLabel";
-            categoryIDLabel.Size = new System.Drawing.Size(66, 13);
+            categoryIDLabel.Size = new System.Drawing.Size(86, 17);
             categoryIDLabel.TabIndex = 7;
             categoryIDLabel.Text = "Category ID:";
             // 
             // quantityPerUnitLabel
             // 
             quantityPerUnitLabel.AutoSize = true;
-            quantityPerUnitLabel.Location = new System.Drawing.Point(16, 128);
-            quantityPerUnitLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            quantityPerUnitLabel.Location = new System.Drawing.Point(21, 158);
             quantityPerUnitLabel.Name = "quantityPerUnitLabel";
-            quantityPerUnitLabel.Size = new System.Drawing.Size(90, 13);
+            quantityPerUnitLabel.Size = new System.Drawing.Size(120, 17);
             quantityPerUnitLabel.TabIndex = 9;
             quantityPerUnitLabel.Text = "Quantity Per Unit:";
             // 
             // unitPriceLabel
             // 
             unitPriceLabel.AutoSize = true;
-            unitPriceLabel.Location = new System.Drawing.Point(16, 151);
-            unitPriceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            unitPriceLabel.Location = new System.Drawing.Point(21, 186);
             unitPriceLabel.Name = "unitPriceLabel";
-            unitPriceLabel.Size = new System.Drawing.Size(56, 13);
+            unitPriceLabel.Size = new System.Drawing.Size(73, 17);
             unitPriceLabel.TabIndex = 11;
             unitPriceLabel.Text = "Unit Price:";
             // 
             // unitsInStockLabel
             // 
             unitsInStockLabel.AutoSize = true;
-            unitsInStockLabel.Location = new System.Drawing.Point(16, 174);
-            unitsInStockLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            unitsInStockLabel.Location = new System.Drawing.Point(21, 214);
             unitsInStockLabel.Name = "unitsInStockLabel";
-            unitsInStockLabel.Size = new System.Drawing.Size(77, 13);
+            unitsInStockLabel.Size = new System.Drawing.Size(98, 17);
             unitsInStockLabel.TabIndex = 13;
             unitsInStockLabel.Text = "Units In Stock:";
             // 
             // unitsOnOrderLabel
             // 
             unitsOnOrderLabel.AutoSize = true;
-            unitsOnOrderLabel.Location = new System.Drawing.Point(16, 197);
-            unitsOnOrderLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            unitsOnOrderLabel.Location = new System.Drawing.Point(21, 242);
             unitsOnOrderLabel.Name = "unitsOnOrderLabel";
-            unitsOnOrderLabel.Size = new System.Drawing.Size(80, 13);
+            unitsOnOrderLabel.Size = new System.Drawing.Size(108, 17);
             unitsOnOrderLabel.TabIndex = 15;
             unitsOnOrderLabel.Text = "Units On Order:";
             // 
             // reorderLevelLabel
             // 
             reorderLevelLabel.AutoSize = true;
-            reorderLevelLabel.Location = new System.Drawing.Point(16, 219);
-            reorderLevelLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            reorderLevelLabel.Location = new System.Drawing.Point(21, 270);
             reorderLevelLabel.Name = "reorderLevelLabel";
-            reorderLevelLabel.Size = new System.Drawing.Size(77, 13);
+            reorderLevelLabel.Size = new System.Drawing.Size(102, 17);
             reorderLevelLabel.TabIndex = 17;
             reorderLevelLabel.Text = "Reorder Level:";
             // 
             // discontinuedLabel
             // 
             discontinuedLabel.AutoSize = true;
-            discontinuedLabel.Location = new System.Drawing.Point(16, 244);
-            discontinuedLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            discontinuedLabel.Location = new System.Drawing.Point(21, 300);
             discontinuedLabel.Name = "discontinuedLabel";
-            discontinuedLabel.Size = new System.Drawing.Size(72, 13);
+            discontinuedLabel.Size = new System.Drawing.Size(94, 17);
             discontinuedLabel.TabIndex = 19;
             discontinuedLabel.Text = "Discontinued:";
             // 
@@ -261,7 +251,7 @@
             this.productsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.productsBindingNavigator.Name = "productsBindingNavigator";
             this.productsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.productsBindingNavigator.Size = new System.Drawing.Size(471, 27);
+            this.productsBindingNavigator.Size = new System.Drawing.Size(628, 31);
             this.productsBindingNavigator.TabIndex = 0;
             this.productsBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -271,13 +261,13 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 24);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 28);
             this.bindingNavigatorCountItem.Text = "of {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
             // 
@@ -287,7 +277,7 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
@@ -296,7 +286,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorMoveFirstItem.Text = "Move first";
             // 
             // bindingNavigatorMovePreviousItem
@@ -305,13 +295,13 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorMovePreviousItem.Text = "Move previous";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 31);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -319,14 +309,14 @@
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(38, 23);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(49, 27);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -334,7 +324,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
@@ -343,39 +333,39 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(24, 24);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 31);
             // 
             // productsBindingNavigatorSaveItem
             // 
             this.productsBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.productsBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("productsBindingNavigatorSaveItem.Image")));
             this.productsBindingNavigatorSaveItem.Name = "productsBindingNavigatorSaveItem";
-            this.productsBindingNavigatorSaveItem.Size = new System.Drawing.Size(24, 24);
+            this.productsBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 28);
             this.productsBindingNavigatorSaveItem.Text = "Save Data";
             this.productsBindingNavigatorSaveItem.Click += new System.EventHandler(this.productsBindingNavigatorSaveItem_Click);
             // 
             // productIDTextBox
             // 
             this.productIDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.productsBindingSource, "ProductID", true));
-            this.productIDTextBox.Location = new System.Drawing.Point(110, 30);
-            this.productIDTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.productIDTextBox.Location = new System.Drawing.Point(147, 37);
+            this.productIDTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.productIDTextBox.Name = "productIDTextBox";
-            this.productIDTextBox.Size = new System.Drawing.Size(225, 20);
+            this.productIDTextBox.Size = new System.Drawing.Size(299, 22);
             this.productIDTextBox.TabIndex = 2;
             // 
             // productNameTextBox
             // 
             this.productNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.productsBindingSource, "ProductName", true));
-            this.productNameTextBox.Location = new System.Drawing.Point(110, 53);
-            this.productNameTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.productNameTextBox.Location = new System.Drawing.Point(147, 65);
+            this.productNameTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.productNameTextBox.Name = "productNameTextBox";
-            this.productNameTextBox.Size = new System.Drawing.Size(225, 20);
+            this.productNameTextBox.Size = new System.Drawing.Size(299, 22);
             this.productNameTextBox.TabIndex = 4;
             // 
             // supplierIDComboBox
@@ -384,10 +374,10 @@
             this.supplierIDComboBox.DataSource = this.suppliersBindingSource;
             this.supplierIDComboBox.DisplayMember = "CompanyName";
             this.supplierIDComboBox.FormattingEnabled = true;
-            this.supplierIDComboBox.Location = new System.Drawing.Point(110, 76);
-            this.supplierIDComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.supplierIDComboBox.Location = new System.Drawing.Point(147, 94);
+            this.supplierIDComboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.supplierIDComboBox.Name = "supplierIDComboBox";
-            this.supplierIDComboBox.Size = new System.Drawing.Size(225, 21);
+            this.supplierIDComboBox.Size = new System.Drawing.Size(299, 24);
             this.supplierIDComboBox.TabIndex = 6;
             this.supplierIDComboBox.ValueMember = "SupplierID";
             // 
@@ -402,10 +392,10 @@
             this.categoryIDComboBox.DataSource = this.categoriesBindingSource;
             this.categoryIDComboBox.DisplayMember = "CategoryName";
             this.categoryIDComboBox.FormattingEnabled = true;
-            this.categoryIDComboBox.Location = new System.Drawing.Point(110, 101);
-            this.categoryIDComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.categoryIDComboBox.Location = new System.Drawing.Point(147, 124);
+            this.categoryIDComboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.categoryIDComboBox.Name = "categoryIDComboBox";
-            this.categoryIDComboBox.Size = new System.Drawing.Size(225, 21);
+            this.categoryIDComboBox.Size = new System.Drawing.Size(299, 24);
             this.categoryIDComboBox.TabIndex = 8;
             this.categoryIDComboBox.ValueMember = "CategoryID";
             // 
@@ -417,55 +407,55 @@
             // quantityPerUnitTextBox
             // 
             this.quantityPerUnitTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.productsBindingSource, "QuantityPerUnit", true));
-            this.quantityPerUnitTextBox.Location = new System.Drawing.Point(110, 126);
-            this.quantityPerUnitTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.quantityPerUnitTextBox.Location = new System.Drawing.Point(147, 155);
+            this.quantityPerUnitTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.quantityPerUnitTextBox.Name = "quantityPerUnitTextBox";
-            this.quantityPerUnitTextBox.Size = new System.Drawing.Size(225, 20);
+            this.quantityPerUnitTextBox.Size = new System.Drawing.Size(299, 22);
             this.quantityPerUnitTextBox.TabIndex = 10;
             // 
             // unitPriceTextBox
             // 
             this.unitPriceTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.productsBindingSource, "UnitPrice", true, System.Windows.Forms.DataSourceUpdateMode.OnValidation, null, "C2"));
-            this.unitPriceTextBox.Location = new System.Drawing.Point(110, 149);
-            this.unitPriceTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.unitPriceTextBox.Location = new System.Drawing.Point(147, 183);
+            this.unitPriceTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.unitPriceTextBox.Name = "unitPriceTextBox";
-            this.unitPriceTextBox.Size = new System.Drawing.Size(225, 20);
+            this.unitPriceTextBox.Size = new System.Drawing.Size(299, 22);
             this.unitPriceTextBox.TabIndex = 12;
             // 
             // unitsInStockTextBox
             // 
             this.unitsInStockTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.productsBindingSource, "UnitsInStock", true));
-            this.unitsInStockTextBox.Location = new System.Drawing.Point(110, 171);
-            this.unitsInStockTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.unitsInStockTextBox.Location = new System.Drawing.Point(147, 210);
+            this.unitsInStockTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.unitsInStockTextBox.Name = "unitsInStockTextBox";
-            this.unitsInStockTextBox.Size = new System.Drawing.Size(225, 20);
+            this.unitsInStockTextBox.Size = new System.Drawing.Size(299, 22);
             this.unitsInStockTextBox.TabIndex = 14;
             // 
             // unitsOnOrderTextBox
             // 
             this.unitsOnOrderTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.productsBindingSource, "UnitsOnOrder", true));
-            this.unitsOnOrderTextBox.Location = new System.Drawing.Point(110, 194);
-            this.unitsOnOrderTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.unitsOnOrderTextBox.Location = new System.Drawing.Point(147, 239);
+            this.unitsOnOrderTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.unitsOnOrderTextBox.Name = "unitsOnOrderTextBox";
-            this.unitsOnOrderTextBox.Size = new System.Drawing.Size(225, 20);
+            this.unitsOnOrderTextBox.Size = new System.Drawing.Size(299, 22);
             this.unitsOnOrderTextBox.TabIndex = 16;
             // 
             // reorderLevelTextBox
             // 
             this.reorderLevelTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.productsBindingSource, "ReorderLevel", true));
-            this.reorderLevelTextBox.Location = new System.Drawing.Point(110, 217);
-            this.reorderLevelTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.reorderLevelTextBox.Location = new System.Drawing.Point(147, 267);
+            this.reorderLevelTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reorderLevelTextBox.Name = "reorderLevelTextBox";
-            this.reorderLevelTextBox.Size = new System.Drawing.Size(225, 20);
+            this.reorderLevelTextBox.Size = new System.Drawing.Size(299, 22);
             this.reorderLevelTextBox.TabIndex = 18;
             // 
             // discontinuedCheckBox
             // 
             this.discontinuedCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.productsBindingSource, "Discontinued", true));
-            this.discontinuedCheckBox.Location = new System.Drawing.Point(110, 240);
-            this.discontinuedCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.discontinuedCheckBox.Location = new System.Drawing.Point(147, 295);
+            this.discontinuedCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.discontinuedCheckBox.Name = "discontinuedCheckBox";
-            this.discontinuedCheckBox.Size = new System.Drawing.Size(91, 20);
+            this.discontinuedCheckBox.Size = new System.Drawing.Size(121, 25);
             this.discontinuedCheckBox.TabIndex = 20;
             this.discontinuedCheckBox.Text = "checkBox1";
             this.discontinuedCheckBox.UseVisualStyleBackColor = true;
@@ -486,13 +476,13 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
             this.order_DetailsDataGridView.DataSource = this.order_DetailsBindingSource;
-            this.order_DetailsDataGridView.Location = new System.Drawing.Point(18, 274);
-            this.order_DetailsDataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.order_DetailsDataGridView.Location = new System.Drawing.Point(24, 337);
+            this.order_DetailsDataGridView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.order_DetailsDataGridView.Name = "order_DetailsDataGridView";
             this.order_DetailsDataGridView.ReadOnly = true;
             this.order_DetailsDataGridView.RowHeadersWidth = 51;
             this.order_DetailsDataGridView.RowTemplate.Height = 24;
-            this.order_DetailsDataGridView.Size = new System.Drawing.Size(441, 179);
+            this.order_DetailsDataGridView.Size = new System.Drawing.Size(588, 220);
             this.order_DetailsDataGridView.TabIndex = 21;
             // 
             // dataGridViewTextBoxColumn1
@@ -503,7 +493,7 @@
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 69;
+            this.dataGridViewTextBoxColumn1.Width = 87;
             // 
             // dataGridViewTextBoxColumn2
             // 
@@ -513,7 +503,7 @@
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 80;
+            this.dataGridViewTextBoxColumn2.Width = 99;
             // 
             // dataGridViewTextBoxColumn3
             // 
@@ -523,7 +513,7 @@
             this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Width = 75;
+            this.dataGridViewTextBoxColumn3.Width = 94;
             // 
             // dataGridViewTextBoxColumn4
             // 
@@ -533,7 +523,7 @@
             this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            this.dataGridViewTextBoxColumn4.Width = 71;
+            this.dataGridViewTextBoxColumn4.Width = 90;
             // 
             // dataGridViewTextBoxColumn5
             // 
@@ -546,9 +536,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(471, 469);
+            this.ClientSize = new System.Drawing.Size(628, 577);
             this.Controls.Add(this.order_DetailsDataGridView);
             this.Controls.Add(productIDLabel);
             this.Controls.Add(this.productIDTextBox);
@@ -571,7 +561,7 @@
             this.Controls.Add(discontinuedLabel);
             this.Controls.Add(this.discontinuedCheckBox);
             this.Controls.Add(this.productsBindingNavigator);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
