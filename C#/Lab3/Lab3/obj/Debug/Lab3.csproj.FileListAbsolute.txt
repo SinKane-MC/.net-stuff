@@ -7,3 +7,12 @@ C:\Git\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.Properties.Resources.resources
 C:\Git\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
 C:\Git\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.exe
 C:\Git\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.pdb
+C:\Git\OOSD\.net-stuff\C#\Lab3\Lab3\bin\Debug\Lab3.exe.config
+C:\Git\OOSD\.net-stuff\C#\Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Git\OOSD\.net-stuff\C#\Lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Git\OOSD\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.csprojAssemblyReference.cache
+C:\Git\OOSD\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.Form1.resources
+C:\Git\OOSD\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+C:\Git\OOSD\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
+C:\Git\OOSD\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.exe
+C:\Git\OOSD\.net-stuff\C#\Lab3\Lab3\obj\Debug\Lab3.pdb
