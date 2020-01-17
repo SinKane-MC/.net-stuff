@@ -52,6 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="NorthwindDB.cs" />
     <Compile Include="OrderDB.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderDetail.cs" />
