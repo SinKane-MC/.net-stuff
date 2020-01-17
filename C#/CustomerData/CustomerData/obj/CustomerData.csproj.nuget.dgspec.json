@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\.net-stuff\\C#\\CustomerData\\CustomerData\\CustomerData.csproj": {}
+    "C:\\Git\\OOSD\\.net-stuff\\C#\\CustomerData\\CustomerData\\CustomerData.csproj": {}
   },
   "projects": {
-    "C:\\Git\\.net-stuff\\C#\\CustomerData\\CustomerData\\CustomerData.csproj": {
+    "C:\\Git\\OOSD\\.net-stuff\\C#\\CustomerData\\CustomerData\\CustomerData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\.net-stuff\\C#\\CustomerData\\CustomerData\\CustomerData.csproj",
+        "projectUniqueName": "C:\\Git\\OOSD\\.net-stuff\\C#\\CustomerData\\CustomerData\\CustomerData.csproj",
         "projectName": "CustomerData",
-        "projectPath": "C:\\Git\\.net-stuff\\C#\\CustomerData\\CustomerData\\CustomerData.csproj",
-        "packagesPath": "C:\\Users\\843722\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\.net-stuff\\C#\\CustomerData\\CustomerData\\obj\\",
+        "projectPath": "C:\\Git\\OOSD\\.net-stuff\\C#\\CustomerData\\CustomerData\\CustomerData.csproj",
+        "packagesPath": "C:\\Users\\Code_Machine\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\OOSD\\.net-stuff\\C#\\CustomerData\\CustomerData\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\843722\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Code_Machine\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
