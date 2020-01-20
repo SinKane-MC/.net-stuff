@@ -36,7 +36,7 @@ namespace Lab3
             }
             catch (Exception ex)
             {
-                MessageBox.Show("General Error: " + ex.Message, ex.GetType().ToString());
+                MessageBox.Show("Undefined Exception: " + ex.Message, ex.GetType().ToString());
             }
         }
 
