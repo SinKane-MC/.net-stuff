@@ -1,0 +1,5 @@
+C:\Git\.net-stuff\C#\DBObject\InvoicesData\bin\Debug\InvoicesData.dll
+C:\Git\.net-stuff\C#\DBObject\InvoicesData\bin\Debug\InvoicesData.pdb
+C:\Git\.net-stuff\C#\DBObject\InvoicesData\obj\Debug\InvoicesData.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\DBObject\InvoicesData\obj\Debug\InvoicesData.dll
+C:\Git\.net-stuff\C#\DBObject\InvoicesData\obj\Debug\InvoicesData.pdb

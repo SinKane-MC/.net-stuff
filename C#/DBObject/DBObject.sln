@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBObject", "DBObject\DBObject.csproj", "{017EB873-6F62-4725-BADB-7FE7BE4651CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicesData", "InvoicesData\InvoicesData.csproj", "{D70EBCE0-4475-4E96-99AD-0979477A89DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{017EB873-6F62-4725-BADB-7FE7BE4651CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017EB873-6F62-4725-BADB-7FE7BE4651CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017EB873-6F62-4725-BADB-7FE7BE4651CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017EB873-6F62-4725-BADB-7FE7BE4651CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70EBCE0-4475-4E96-99AD-0979477A89DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70EBCE0-4475-4E96-99AD-0979477A89DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70EBCE0-4475-4E96-99AD-0979477A89DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70EBCE0-4475-4E96-99AD-0979477A89DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6269AE20-80FA-41E1-B088-D0D6562F4056}
+	EndGlobalSection
+EndGlobal

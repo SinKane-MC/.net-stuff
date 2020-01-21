@@ -1,0 +1,54 @@
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe.config
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.pdb
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csprojAssemblyReference.cache
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.Properties.Resources.resources
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csproj.GenerateResource.cache
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csproj.CoreCompileInputs.cache
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.exe
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.pdb
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmAddModifyProduct.resources
+C:\Users\jwarpech\source\repos\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmProducts.resources
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe.config
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.pdb
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csprojAssemblyReference.cache
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmAddModifyProduct.resources
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmProducts.resources
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.Properties.Resources.resources
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csproj.GenerateResource.cache
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csproj.CoreCompileInputs.cache
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.exe
+C:\Users\jolaw\Downloads\LINQ to SQL Demo\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.pdb
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csprojAssemblyReference.cache
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmAddModifyProduct.resources
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmProducts.resources
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.Properties.Resources.resources
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csproj.GenerateResource.cache
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csproj.CoreCompileInputs.cache
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.exe
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.pdb
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe.config
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe
+E:\OOSD\CPRG 200 C#\Day 12\LINQ to SQL Demo DML\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.pdb
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe.config
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.pdb
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csprojAssemblyReference.cache
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmAddModifyProduct.resources
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmProducts.resources
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.Properties.Resources.resources
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csproj.GenerateResource.cache
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csproj.CoreCompileInputs.cache
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.exe
+H:\OOSD\CPRG 200 C#\Day 9\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.pdb
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe.config
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.exe
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\bin\Debug\LINQ to SQL Demo.pdb
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmAddModifyProduct.resources
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.frmProducts.resources
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ_to_SQL_Demo.Properties.Resources.resources
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.exe
+C:\Git\.net-stuff\C#\LINQ to SQL Demo DML\LINQ to SQL Demo\obj\Debug\LINQ to SQL Demo.pdb

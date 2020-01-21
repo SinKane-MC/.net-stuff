@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\Lab4-v2\Lab4-v2\bin\Debug\Lab4-v2.exe.config
+C:\Git\.net-stuff\C#\Lab4-v2\Lab4-v2\bin\Debug\Lab4-v2.exe
+C:\Git\.net-stuff\C#\Lab4-v2\Lab4-v2\bin\Debug\Lab4-v2.pdb
+C:\Git\.net-stuff\C#\Lab4-v2\Lab4-v2\obj\Debug\Lab4-v2.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\Lab4-v2\Lab4-v2\obj\Debug\Lab4_v2.Form1.resources
+C:\Git\.net-stuff\C#\Lab4-v2\Lab4-v2\obj\Debug\Lab4_v2.Properties.Resources.resources
+C:\Git\.net-stuff\C#\Lab4-v2\Lab4-v2\obj\Debug\Lab4-v2.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\Lab4-v2\Lab4-v2\obj\Debug\Lab4-v2.exe
+C:\Git\.net-stuff\C#\Lab4-v2\Lab4-v2\obj\Debug\Lab4-v2.pdb

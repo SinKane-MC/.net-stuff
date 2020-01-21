@@ -1,0 +1,12 @@
+C:\Git\.net-stuff\C#\DBObject\DBObject\bin\Debug\DBObject.exe.config
+C:\Git\.net-stuff\C#\DBObject\DBObject\bin\Debug\DBObject.exe
+C:\Git\.net-stuff\C#\DBObject\DBObject\bin\Debug\DBObject.pdb
+C:\Git\.net-stuff\C#\DBObject\DBObject\obj\Debug\DBObject.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\DBObject\DBObject\obj\Debug\DBObject.Properties.Resources.resources
+C:\Git\.net-stuff\C#\DBObject\DBObject\obj\Debug\DBObject.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\DBObject\DBObject\obj\Debug\DBObject.exe
+C:\Git\.net-stuff\C#\DBObject\DBObject\obj\Debug\DBObject.pdb
+C:\Git\.net-stuff\C#\DBObject\DBObject\bin\Debug\InvoicesData.dll
+C:\Git\.net-stuff\C#\DBObject\DBObject\bin\Debug\InvoicesData.pdb
+C:\Git\.net-stuff\C#\DBObject\DBObject\obj\Debug\DBObject.Form1.resources
+C:\Git\.net-stuff\C#\DBObject\DBObject\obj\Debug\DBObject.csproj.CopyComplete

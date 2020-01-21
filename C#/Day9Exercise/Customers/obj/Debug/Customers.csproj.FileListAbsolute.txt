@@ -1,0 +1,5 @@
+C:\Git\.net-stuff\C#\Day9Exercise\Customers\bin\Debug\Customers.dll
+C:\Git\.net-stuff\C#\Day9Exercise\Customers\bin\Debug\Customers.pdb
+C:\Git\.net-stuff\C#\Day9Exercise\Customers\obj\Debug\Customers.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\Day9Exercise\Customers\obj\Debug\Customers.dll
+C:\Git\.net-stuff\C#\Day9Exercise\Customers\obj\Debug\Customers.pdb

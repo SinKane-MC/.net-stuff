@@ -1,0 +1,12 @@
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\bin\Debug\Day9Exercise.exe.config
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\bin\Debug\Day9Exercise.exe
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\bin\Debug\Day9Exercise.pdb
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\obj\Debug\Day9Exercise.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\obj\Debug\Day9Exercise.Properties.Resources.resources
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\obj\Debug\Day9Exercise.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\obj\Debug\Day9Exercise.exe
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\obj\Debug\Day9Exercise.pdb
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\bin\Debug\Customers.dll
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\bin\Debug\Customers.pdb
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\obj\Debug\Day9Exercise.Form1.resources
+C:\Git\.net-stuff\C#\Day9Exercise\Day9Exercise\obj\Debug\Day9Exercise.csproj.CopyComplete

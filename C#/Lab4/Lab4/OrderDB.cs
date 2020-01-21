@@ -12,6 +12,42 @@ namespace Lab4
 {
     public static class OrderDB
     {
+        public static bool SaveShippedDate(Order newOrder, DateTime? newDT)
+        {
+            int count = 0; ;
+            using (SqlConnection conn = NorthwindDB.GetConnection())
+            {
+                //create command
+                string query = "UPDATE Orders SET ShippedDate=@newDate " +
+                                "WHERE OrderID=@oldOrderID " +
+                                "AND CustomerID=@oldCustomerID " +
+                                "AND OrderDate=@oldOrderDate " +
+                                "AND RequiredDate=@oldRequiredDate";
+                
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        if (newDT == null)
+                        {
+                            cmd.Parameters.AddWithValue("@newDate", DBNull.Value);
+                        }
+                        else
+                        {
+                            cmd.Parameters.AddWithValue("@newDate", newDT);
+                        }
+                        cmd.Parameters.AddWithValue("@oldOrderID", newOrder.OrderID);
+                        cmd.Parameters.AddWithValue("@oldCustomerID", newOrder.CustomerID);
+                        cmd.Parameters.AddWithValue("@oldOrderDate", newOrder.OrderDate);
+                        cmd.Parameters.AddWithValue("@oldRequiredDate", newOrder.RequiredDate);
+                        conn.Open();
+                        count = cmd.ExecuteNonQuery();
+                    }
+                
+                
+            }
+            return count>0;
+        }
+
+
         public static List<Order> GetOrders()
         {
             List<Order> orders = new List<Order>();

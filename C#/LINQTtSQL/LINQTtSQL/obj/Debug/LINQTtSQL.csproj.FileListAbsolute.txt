@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\LINQTtSQL\LINQTtSQL\bin\Debug\LINQTtSQL.exe.config
+C:\Git\.net-stuff\C#\LINQTtSQL\LINQTtSQL\bin\Debug\LINQTtSQL.exe
+C:\Git\.net-stuff\C#\LINQTtSQL\LINQTtSQL\bin\Debug\LINQTtSQL.pdb
+C:\Git\.net-stuff\C#\LINQTtSQL\LINQTtSQL\obj\Debug\LINQTtSQL.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\LINQTtSQL\LINQTtSQL\obj\Debug\LINQTtSQL.Properties.Resources.resources
+C:\Git\.net-stuff\C#\LINQTtSQL\LINQTtSQL\obj\Debug\LINQTtSQL.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\LINQTtSQL\LINQTtSQL\obj\Debug\LINQTtSQL.exe
+C:\Git\.net-stuff\C#\LINQTtSQL\LINQTtSQL\obj\Debug\LINQTtSQL.pdb
+C:\Git\.net-stuff\C#\LINQTtSQL\LINQTtSQL\obj\Debug\LINQTtSQL.Form1.resources
