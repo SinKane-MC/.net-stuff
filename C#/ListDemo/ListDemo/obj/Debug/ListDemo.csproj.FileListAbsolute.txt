@@ -1,0 +1,6 @@
+C:\Git\.net-stuff\C#\ListDemo\ListDemo\bin\Debug\ListDemo.exe.config
+C:\Git\.net-stuff\C#\ListDemo\ListDemo\bin\Debug\ListDemo.exe
+C:\Git\.net-stuff\C#\ListDemo\ListDemo\bin\Debug\ListDemo.pdb
+C:\Git\.net-stuff\C#\ListDemo\ListDemo\obj\Debug\ListDemo.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\ListDemo\ListDemo\obj\Debug\ListDemo.exe
+C:\Git\.net-stuff\C#\ListDemo\ListDemo\obj\Debug\ListDemo.pdb

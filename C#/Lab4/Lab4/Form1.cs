@@ -51,6 +51,19 @@ namespace Lab4
                 btnBack.Enabled = false;
             CheckData(); // check the data to disable/enable the save button
         }
+        private void btnLast_Click(object sender, EventArgs e)
+        {
+            recordIndex = orders.Count - 1;
+            LoadOrders(recordIndex);
+            CheckData();
+        }
+
+        private void btnFirst_Click(object sender, EventArgs e)
+        {
+            recordIndex = 0;
+            LoadOrders(recordIndex);
+            CheckData();
+        }
 
         private void dtShippedDate_ValueChanged(object sender, EventArgs e)
         {
@@ -134,8 +147,10 @@ namespace Lab4
                 dataGridView1.MultiSelect = false;
                 // do not allow edits in the datagrid
                 dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically;
-                // set the display formet to Currency for UnitPrice
+                // set the display format to Currency for UnitPrice
                 dataGridView1.Columns[2].DefaultCellStyle.Format = "c";
+                // set the display format to Percentage for Discount
+                dataGridView1.Columns[4].DefaultCellStyle.Format = "p";
 
                 // calculate the total for the order based on the order details
                 foreach (OrderDetail ord in orderDetails)
@@ -155,6 +170,26 @@ namespace Lab4
         /// </summary>
         public void CheckData()
         {
+            if (recordIndex > 0)
+            {
+                btnFirst.Enabled = true;
+                btnBack.Enabled = true;
+            }
+            else
+            {
+                btnFirst.Enabled = false;
+                btnBack.Enabled = false;
+            }
+            if (recordIndex< orders.Count - 1)
+            {
+                btnLast.Enabled = true;
+                btnNext.Enabled = true;
+            }
+            else
+            {
+                btnLast.Enabled = false;
+                btnNext.Enabled = false;
+            }
 
             if (dtShippedDate.Value == null || dtShippedDate.Value > orders[recordIndex].OrderDate
                 && dtShippedDate.Value < orders[recordIndex].RequiredDate)
@@ -183,11 +218,10 @@ namespace Lab4
         {
             if (e.KeyChar == (char)Keys.Back || e.KeyChar == (char)Keys.Delete)
             {
-                dtShippedDate.CustomFormat = " ";
-                dtShippedDate.Format = DateTimePickerFormat.Custom;
                 tmpDate = null;
                 CheckData();
             }
         }
+
     }
 }
