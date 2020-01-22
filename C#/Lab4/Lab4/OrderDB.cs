@@ -6,52 +6,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Order entity data access class -  This is where the magic happens!
+/// exposes 2 public methods for getting order data GetOrders and SaveShippedDate
+/// </summary>
 
 namespace Lab4
 {
     public static class OrderDB
     {
-        public static bool SaveShippedDate(Order newOrder, DateTime? newDT)
-        {
-            int count = 0; ;
-            using (SqlConnection conn = NorthwindDB.GetConnection())
-            {
-                //create command
-                string query = "UPDATE Orders SET ShippedDate=@newDate " +
-                                "WHERE OrderID=@oldOrderID " +
-                                "AND CustomerID=@oldCustomerID " +
-                                "AND OrderDate=@oldOrderDate " +
-                                "AND RequiredDate=@oldRequiredDate";
-                
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
-                    {
-                        if (newDT == null)
-                        {
-                            cmd.Parameters.AddWithValue("@newDate", DBNull.Value);
-                        }
-                        else
-                        {
-                            cmd.Parameters.AddWithValue("@newDate", newDT);
-                        }
-                        cmd.Parameters.AddWithValue("@oldOrderID", newOrder.OrderID);
-                        cmd.Parameters.AddWithValue("@oldCustomerID", newOrder.CustomerID);
-                        cmd.Parameters.AddWithValue("@oldOrderDate", newOrder.OrderDate);
-                        cmd.Parameters.AddWithValue("@oldRequiredDate", newOrder.RequiredDate);
-                        conn.Open();
-                        count = cmd.ExecuteNonQuery();
-                    }
-                
-                
-            }
-            return count>0;
-        }
-
-
+        /// GetOrders - queries DB for all order entities and 
+        /// generates a List of Orders which is returned back to the calling method.
         public static List<Order> GetOrders()
         {
             List<Order> orders = new List<Order>();
             Order tmpOrder;
+            
             using (SqlConnection conn = NorthwindDB.GetConnection())
             {
                 //create command
@@ -71,6 +41,7 @@ namespace Lab4
                             tmpOrder.CustomerID = reader["CustomerID"].ToString();
                             if (reader["OrderDate"] != DBNull.Value)
                             {
+                               
                                 tmpOrder.OrderDate = Convert.ToDateTime(reader["OrderDate"]);
                             }
                             else
@@ -101,9 +72,41 @@ namespace Lab4
                     }// closes reader
                 } // cmd object recycled
             }// connection is closed if open & Connection object recycled
-
-
             return orders;
+        }
+
+        /// SaveShippedDate - allows the shipped date to be updated in the DB
+        public static bool SaveShippedDate(Order newOrder, DateTime? newDT)
+        {
+            int count = 0; ;
+            using (SqlConnection conn = NorthwindDB.GetConnection())
+            {
+                //create command
+                string query = "UPDATE Orders SET ShippedDate=@newDate " +
+                                "WHERE OrderID=@oldOrderID " +
+                                "AND CustomerID=@oldCustomerID " +
+                                "AND OrderDate=@oldOrderDate " +
+                                "AND RequiredDate=@oldRequiredDate";
+
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    if (newDT == null)
+                    {
+                        cmd.Parameters.AddWithValue("@newDate", DBNull.Value);
+                    }
+                    else
+                    {
+                        cmd.Parameters.AddWithValue("@newDate", newDT);
+                    }
+                    cmd.Parameters.AddWithValue("@oldOrderID", newOrder.OrderID);
+                    cmd.Parameters.AddWithValue("@oldCustomerID", newOrder.CustomerID);
+                    cmd.Parameters.AddWithValue("@oldOrderDate", newOrder.OrderDate);
+                    cmd.Parameters.AddWithValue("@oldRequiredDate", newOrder.RequiredDate);
+                    conn.Open();
+                    count = cmd.ExecuteNonQuery();
+                }
+            }
+            return count > 0;
         }
     }
 }
