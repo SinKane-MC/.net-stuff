@@ -1,0 +1,9 @@
+C:\Git\.net-stuff\C#\Workshop4-team3\Workshop4-team3\bin\Debug\Workshop4-team3.exe.config
+C:\Git\.net-stuff\C#\Workshop4-team3\Workshop4-team3\bin\Debug\Workshop4-team3.exe
+C:\Git\.net-stuff\C#\Workshop4-team3\Workshop4-team3\bin\Debug\Workshop4-team3.pdb
+C:\Git\.net-stuff\C#\Workshop4-team3\Workshop4-team3\obj\Debug\Workshop4-team3.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\Workshop4-team3\Workshop4-team3\obj\Debug\Workshop4_team3.Form1.resources
+C:\Git\.net-stuff\C#\Workshop4-team3\Workshop4-team3\obj\Debug\Workshop4_team3.Properties.Resources.resources
+C:\Git\.net-stuff\C#\Workshop4-team3\Workshop4-team3\obj\Debug\Workshop4-team3.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\Workshop4-team3\Workshop4-team3\obj\Debug\Workshop4-team3.exe
+C:\Git\.net-stuff\C#\Workshop4-team3\Workshop4-team3\obj\Debug\Workshop4-team3.pdb
