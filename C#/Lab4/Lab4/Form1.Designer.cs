@@ -44,7 +44,6 @@
             this.btnBack = new System.Windows.Forms.Button();
             this.btnSaveDate = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,12 +70,14 @@
             // 
             // dtShippedDate
             // 
-            this.dtShippedDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtShippedDate.CustomFormat = " ";
+            this.dtShippedDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtShippedDate.Location = new System.Drawing.Point(191, 164);
             this.dtShippedDate.Name = "dtShippedDate";
             this.dtShippedDate.Size = new System.Drawing.Size(324, 30);
             this.dtShippedDate.TabIndex = 14;
             this.dtShippedDate.ValueChanged += new System.EventHandler(this.dtShippedDate_ValueChanged);
+            this.dtShippedDate.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dtShippedDate_KeyPress);
             // 
             // label1
             // 
@@ -177,9 +178,9 @@
             // btnSaveDate
             // 
             this.btnSaveDate.Enabled = false;
-            this.btnSaveDate.Location = new System.Drawing.Point(535, 164);
+            this.btnSaveDate.Location = new System.Drawing.Point(521, 164);
             this.btnSaveDate.Name = "btnSaveDate";
-            this.btnSaveDate.Size = new System.Drawing.Size(75, 36);
+            this.btnSaveDate.Size = new System.Drawing.Size(74, 30);
             this.btnSaveDate.TabIndex = 16;
             this.btnSaveDate.Text = "Save";
             this.btnSaveDate.UseVisualStyleBackColor = true;
@@ -195,22 +196,11 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
-            // btnClear
-            // 
-            this.btnClear.Location = new System.Drawing.Point(616, 164);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 36);
-            this.btnClear.TabIndex = 18;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(727, 643);
-            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnSaveDate);
             this.Controls.Add(this.btnBack);
@@ -231,7 +221,6 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.Shown += new System.EventHandler(this.Form1_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -257,7 +246,6 @@
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnSaveDate;
         private System.Windows.Forms.Button btnNext;
-        private System.Windows.Forms.Button btnClear;
     }
 }
 

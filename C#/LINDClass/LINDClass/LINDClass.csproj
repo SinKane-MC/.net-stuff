@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C6B623A1-C384-4CA8-9B5E-60D34410DA7A}</ProjectGuid>
+    <ProjectGuid>{8214B2CC-9283-43D0-BE7C-93F9A3FDFA4C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lab4_v2</RootNamespace>
-    <AssemblyName>Lab4-v2</AssemblyName>
+    <RootNamespace>LINDClass</RootNamespace>
+    <AssemblyName>LINDClass</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,20 +53,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="NWOrders.designer.cs">
+    <Compile Include="frmAddModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddModify.Designer.cs">
+      <DependentUpon>frmAddModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Membership.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>NWOrders.dbml</DependentUpon>
+      <DependentUpon>Membership.dbml</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Membership.dbml.layout">
+      <DependentUpon>Membership.dbml</DependentUpon>
+    </None>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ClassDiagram1.cd" />
-    <None Include="NWOrders.dbml.layout">
-      <DependentUpon>NWOrders.dbml</DependentUpon>
-    </None>
+    <EmbeddedResource Include="frmAddModify.resx">
+      <DependentUpon>frmAddModify.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,15 +84,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="NWOrders.dbml">
+    <None Include="Membership.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>NWOrders.designer.cs</LastGenOutput>
+      <LastGenOutput>Membership.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="Properties\DataSources\Customer.datasource" />
-    <None Include="Properties\DataSources\NWOrdersDataContext.datasource" />
-    <None Include="Properties\DataSources\Order.datasource" />
-    <None Include="Properties\DataSources\Order_Detail.datasource" />
+    <None Include="Properties\DataSources\Membership.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

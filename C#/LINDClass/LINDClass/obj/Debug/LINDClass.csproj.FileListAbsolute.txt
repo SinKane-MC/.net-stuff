@@ -1,0 +1,10 @@
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\bin\Debug\LINDClass.exe.config
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\bin\Debug\LINDClass.exe
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\bin\Debug\LINDClass.pdb
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\obj\Debug\LINDClass.csprojAssemblyReference.cache
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\obj\Debug\LINDClass.Properties.Resources.resources
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\obj\Debug\LINDClass.csproj.GenerateResource.cache
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\obj\Debug\LINDClass.exe
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\obj\Debug\LINDClass.pdb
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\obj\Debug\LINDClass.Form1.resources
+C:\Git\.net-stuff\C#\LINDClass\LINDClass\obj\Debug\LINDClass.frmAddModify.resources

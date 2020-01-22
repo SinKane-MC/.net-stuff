@@ -96,11 +96,7 @@ namespace Lab4
 
 
                             orders.Add(tmpOrder);
-                            //}
-                            //catch(Exception ex)
-                            //{
-                            //    //MessageBox.Show(ex.Message );
-                            //}
+                            
                         }
                     }// closes reader
                 } // cmd object recycled
