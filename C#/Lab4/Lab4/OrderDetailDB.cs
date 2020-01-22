@@ -5,17 +5,15 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/// <summary>
+/// OrderDetails data access class for retrieving all the detail entities for a given order number
+/// and creating a List of OrderDetails which is returned to the calling method.
+/// </summary>
 namespace Lab4
 {
     public static class OrderDetailDB
     {
-        public static bool UpdateShippedDate(Order newOrder, Order oldOrder)
-        {
-
-
-            return true;
-        }
+        
     public static List<OrderDetail> GetOrderDetails(int orderNum)
         {
             List<OrderDetail> orders = new List<OrderDetail>();
@@ -23,7 +21,7 @@ namespace Lab4
             using (SqlConnection conn = NorthwindDB.GetConnection())
             {
                 //create command
-                string query = "SELECT * FROM [Order Details] WHERE OrderID='"+orderNum+"' ORDER BY OrderID";
+                string query = "SELECT * FROM [Order Details] WHERE OrderID='" + orderNum + "' ORDER BY OrderID";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     //run command and process results
@@ -32,8 +30,6 @@ namespace Lab4
                     {
                         while (reader.Read())
                         {
-                            //try
-                            //{
                             tmpOrder = new OrderDetail();
                             tmpOrder.OrderID = Convert.ToInt32(reader["OrderID"]);
                             tmpOrder.ProductID = Convert.ToInt32(reader["ProductID"]);

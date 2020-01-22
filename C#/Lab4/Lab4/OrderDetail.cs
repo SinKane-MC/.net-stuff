@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/// <summary>
+/// OrderDetails class with auto-implented attributes for Order details
+/// </summary>
 namespace Lab4
 {
     public class OrderDetail

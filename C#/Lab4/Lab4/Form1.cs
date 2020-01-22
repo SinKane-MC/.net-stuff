@@ -82,10 +82,19 @@ namespace Lab4
 
         private void LoadOrders(int recordNum)
         {
+            DateTime? tempDate;
+            string tmpStr;
             lblOrderID.Text = orders[recordNum].OrderID.ToString();
             lblCustomerID.Text = orders[recordNum].CustomerID.ToString();
-            lblOrderDate.Text = Convert.ToString(orders[recordNum].OrderDate.ToString());
-            lblRequiredDate.Text = orders[recordNum].RequiredDate.ToString();
+            // Convert Ordered date to short format
+            tempDate = orders[recordNum].OrderDate;
+            tmpStr = tempDate.Value.ToShortDateString();
+            lblOrderDate.Text = tmpStr;
+            // Convert Required date to short format
+            tempDate = orders[recordNum].RequiredDate;
+            tmpStr = tempDate.Value.ToShortDateString();
+            lblRequiredDate.Text = tmpStr;
+
             // check if the entity ShippedDate is Null, if it is clear the DateTime Picker
             if (orders[recordNum].ShippedDate == null)
             {
@@ -161,10 +170,15 @@ namespace Lab4
                     dtShippedDate.Format = DateTimePickerFormat.Custom;
                 }
                 if (orders[recordIndex].ShippedDate != tmpDate)
+                {
                     btnSaveDate.Enabled = true;
+                }else
+                {
+                    btnSaveDate.Enabled = false;
+                }
             }
         }
-
+        // Check for Backspace or Delete key in puts on DateTime picker and set dtp to 'null'
         private void dtShippedDate_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Back || e.KeyChar == (char)Keys.Delete)

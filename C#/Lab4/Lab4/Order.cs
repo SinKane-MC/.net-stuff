@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/// <summary>
+/// Order class with auto-implented attributes for Order entities
+/// DateTime atrributes are Nullable
+/// </summary>
 namespace Lab4
 {
     public class Order

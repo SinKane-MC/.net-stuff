@@ -4,7 +4,10 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/// <summary>
+/// For setting up the connection string to the 
+/// localhost\sqlexpress server and the Northwinds Database instance
+/// </summary>
 namespace Lab4
 {
     public static class NorthwindDB
