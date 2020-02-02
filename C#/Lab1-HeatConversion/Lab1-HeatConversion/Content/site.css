@@ -1,0 +1,17 @@
+﻿.form-group{
+    display:flex;
+}
+
+.validator {
+    margin-left: 1em;
+    color: red;
+}
+#image1{
+    padding:2em;
+}
+
+#lblResult{
+    
+    font-size:large;
+    text-align:left;
+}
